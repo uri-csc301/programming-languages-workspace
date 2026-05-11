@@ -51,8 +51,6 @@ Instead:
 3. Set it to **Private**
 4. Click **Create repository**
 
----
-
 ### Step 2: Open in Codespaces
 
 1. Go to your new repository
@@ -63,7 +61,7 @@ You can now start coding directly in your browser.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 lecture-examples/     → Code demonstrated in lectures
