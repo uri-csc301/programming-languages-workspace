@@ -9,7 +9,16 @@ These problems are designed to help you practice **recursion**.
 
 ## Instructions
 
-- You may use **any programming language** you are comfortable with (e.g., Python, Java, JavaScript, C, C++, etc.)
+- You may use any of the following languages:
+  - **Java**
+  - **Python**
+  - **C**
+  - **C++**
+
+- The following languages are also available, but are not required for these problems:
+  - **SML**
+  - **Prolog**
+
 - Focus on writing **recursive solutions**
 - Make sure you understand:
   - the **base case**
@@ -17,11 +26,50 @@ These problems are designed to help you practice **recursion**.
 
 ---
 
-## How to Work
+## How To Work
 
-1. Create your own files in this folder (e.g., `countdown.py`, `exponent.js`)
-2. Run your code using your preferred language
-3. Test your program with different inputs
+1. Create your own files in this folder (e.g., `countdown.py`, `exponent.cpp`)
+2. Open the terminal in Codespaces
+3. Navigate to this folder (e.g., `cd self-assess-problems/week-01-recursion`)
+4. Run your program using the appropriate command (see below)
+5. Test your program with different inputs
+
+---
+
+## Running Your Code
+
+### Python
+```bash
+python3 filename.py
+```
+
+### Java
+```bash
+javac FileName.java
+java ClassName
+```
+
+### C
+```bash
+gcc filename.c -o program
+./program
+```
+
+### C++
+```bash
+g++ filename.cpp -o program
+./program
+```
+
+### SML
+```bash
+sml
+```
+
+### Prolog
+```bash
+swipl program.pl
+```
 
 ---
 
