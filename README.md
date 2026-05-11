@@ -1,17 +1,15 @@
-# CSC 301 – Fundamentals of Programming Languages
+# CSC 301 – Fundamentals Of Programming Languages
 
-Welcome to CSC 301!
-
-This repository serves as your **primary workspace for the course**. Throughout the semester, you will use this repository to:
+Welcome to CSC 301! This repository serves as your primary workspace for the course. Throughout the semester, you will use this repository to:
 - Review lecture examples  
 - Practice with self-assessment problems  
 - Complete and submit assignments  
 
 ---
 
-## About the Course
+## About The Course
 
-In this course, we explore the **fundamental concepts of programming languages**, including:
+In this course, we explore the fundamental concepts of programming languages including:
 - Programming paradigms (functional, object-oriented, logic)
 - Language design and implementation
 - Syntax and semantics
@@ -51,7 +49,7 @@ Instead:
 3. Set it to **Private**
 4. Click **Create repository**
 
-### Step 2: Open in Codespaces
+### Step 2: Open In Codespaces
 
 1. Go to your new repository
 2. Click **Code → Codespaces → Create Codespace**
@@ -71,7 +69,7 @@ assignments/          → Graded work to be submitted
 
 ---
 
-## How to Work in This Repository
+## How To Work In This Repository
 
 Throughout the semester:
 - Work inside your own repository (NOT this template)
@@ -81,15 +79,15 @@ Throughout the semester:
 ### Example commands:
 
 ```bash
+# SML
+sml
+
 # Java
 javac Hello.java
 java Hello
 
-# SML
-sml
-
 # Prolog
-swipl program.pl
+swipl Hello.pl
 ```
 
 ---
@@ -115,7 +113,7 @@ git push
 Unless otherwise specified:
 
 1. Make sure your work is committed and pushed to GitHub
-2. Submit a **link to your repository** (or specific files/folders) on Brightspace
+2. Submit a **link to your repository** on Brightspace
 3. Ensure your instructor/TA has access to your private repository
 
 ---
@@ -151,4 +149,4 @@ Violations will result in:
 - Ask for help when you’re stuck  
 - Stay consistent each week  
 
-This repository is your **coding home for the semester**—use it well.
+This repository is your **coding home for the summer**.
