@@ -1,0 +1,19 @@
+{
+  "name": "CSC 301 Programming Languages Workspace",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "21"
+    }
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y gcc smlnj swi-prolog",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "rebornix.prolog",
+        "freebroccolo.sml"
+      ]
+    }
+  }
+}
