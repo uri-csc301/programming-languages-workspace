@@ -27,7 +27,7 @@ These problems are designed to help you practice **recursion**.
 
 ## Problem 1: Countdown
 
-Write a recursive program that outputs:
+Write a recursive program that outputs a countdown:
 
 ```
 5
@@ -45,7 +45,7 @@ If we want to countdown from 0, then it's over. Don't do anything! If we want to
 
 ## Problem 2: Exponent
 
-Write a recursive program that computes:
+Write a recursive program that computes an exponent and outputs the result:
 
 ```
 2^3 = 8
@@ -62,9 +62,9 @@ Think recursively! What's the recursive definition of an exponent? What's the ba
 
 Write a recursive function that computes the **sum of digits** of a number.
 
-Example:
 ```
 digitalSum(2019) → 12
+(2+0+1+9=12)
 ```
 
 ### Hint
