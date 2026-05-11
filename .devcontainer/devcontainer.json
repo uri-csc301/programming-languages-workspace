@@ -4,17 +4,13 @@
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
       "version": "21"
-    },
-    "ghcr.io/devcontainers/features/python:1": {
-      "version": "3.12"
     }
   },
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y gcc smlnj swi-prolog",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y gcc g++ python3 python3-pip smlnj swi-prolog",
   "customizations": {
     "vscode": {
       "extensions": [
         "vscjava.vscode-java-pack",
-        "ms-python.python",
         "rebornix.prolog",
         "freebroccolo.sml"
       ]
