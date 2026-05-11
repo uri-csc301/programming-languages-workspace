@@ -25,7 +25,8 @@ Compare how different programming paradigms approach solving the same problem.
 - Go to your copy of the repository
 - Click <b>Code → Codespaces → Create Codespace</b>
 - Wait for setup (1–2 minutes first time)
-- Open terminal and navigate to this folder (e.g., ```cd lecture-examples/week-01-recursion```)
+- Open the terminal (e.g., ```bash - week-01-recursion```)
+- Navigate to this folder (e.g., ```cd lecture-examples/week-01-recursion```)
 
 ### C
 ```bash
