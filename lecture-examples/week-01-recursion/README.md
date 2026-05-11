@@ -22,7 +22,9 @@ Compare how different programming paradigms approach solving the same problem.
 
 ## How To Run Examples
 
-Open the terminal in Codespaces and navigate to this folder.
+- Click <b>Code → Codespaces → Create Codespace</b>
+- Wait for setup (1–2 minutes first time)
+- Open terminal and navigate to this folder
 
 ### C
 ```bash
