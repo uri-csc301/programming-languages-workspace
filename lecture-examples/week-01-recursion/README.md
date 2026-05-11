@@ -20,7 +20,40 @@ This folder contains example implementations of the factorial function across di
 
 Compare how different programming paradigms approach solving the same problem.
 
-## Try It Yourself
+## ▶️ How to Run the Examples
+
+Open the terminal in Codespaces and navigate to this folder.
+
+### Java
+```bash
+javac oop_factorial.java
+java Main
+```
+
+### SML
+```bash
+sml
+```
+Then:
+```sml
+use "functional_factorial.sml";
+fact 5;
+```
+
+### Prolog
+```bash
+swipl logic_factorial.pl
+```
+Then:
+```prolog
+?- fact(5, F).
+```
+
+### (Optional) C
+```bash
+gcc imperative_factorial.c -o fact
+./fact
+```
 
 Run each program and answer:
 
