@@ -20,7 +20,7 @@ This folder contains example implementations of the factorial function across di
 
 Compare how different programming paradigms approach solving the same problem.
 
-## ▶️ How to Run the Examples
+## How to Run the Examples
 
 Open the terminal in Codespaces and navigate to this folder.
 
