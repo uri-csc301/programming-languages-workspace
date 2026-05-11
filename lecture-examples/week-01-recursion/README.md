@@ -1,4 +1,4 @@
-# Week 1 – Programming Paradigms
+# Week 1: Programming Languages & Recursion
 
 This folder contains example implementations of the factorial function across different programming paradigms.
 
