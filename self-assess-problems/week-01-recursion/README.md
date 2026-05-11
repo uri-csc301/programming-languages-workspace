@@ -60,7 +60,7 @@ Think recursively! What's the recursive definition of an exponent? What's the ba
 
 ## Problem 3: Digital Sum
 
-Write a recursive function that computes the **sum of digits** of a number.
+Write a recursive function that computes the sum of digits of a number.
 
 ```
 digitalSum(2019) → 12
