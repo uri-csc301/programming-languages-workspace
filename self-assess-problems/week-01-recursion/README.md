@@ -39,7 +39,7 @@ Blast off!
 ```
 
 ### Hint
-- If we want to countdown from 0, then it's over. Don't do anything! If we want to countdown from n, then count n and countdown from n-1.
+If we want to countdown from 0, then it's over. Don't do anything! If we want to countdown from n, then count n and countdown from n-1.
 
 ---
 
@@ -54,7 +54,7 @@ Write a recursive program that computes:
 ```
 
 ### Hint
-- Think recursively! What's the recursive definition of an exponent? What's the base case? What's the general (recursive) case?
+Think recursively! What's the recursive definition of an exponent? What's the base case? What's the general (recursive) case?
 
 ---
 
@@ -68,7 +68,7 @@ digitalSum(2019) → 12
 ```
 
 ### Hint
-- Think recursively! What's the base case? What's the general (recursive) case? Use n % 10 and n // 10 to deal with one digit at a time!
+Think recursively! What's the base case? What's the general (recursive) case? Use n % 10 and n // 10 to deal with one digit at a time!
 
 ---
 
