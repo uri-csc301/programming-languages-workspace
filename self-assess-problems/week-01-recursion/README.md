@@ -120,18 +120,10 @@ Think recursively! What's the base case? What's the general (recursive) case? Us
 
 ---
 
-## Reflection (Optional)
+## Reflection
 
 After completing these problems, think about:
 
 - Which problem was easiest? Why?
 - Where did recursion feel confusing?
 - How does recursion compare to iteration?
-
----
-
-## Goal
-
-These problems will prepare you for:
-- upcoming assignments
-- deeper understanding of functional programming
