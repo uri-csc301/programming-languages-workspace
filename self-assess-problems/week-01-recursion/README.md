@@ -45,7 +45,7 @@ If we want to countdown from 0, then it's over. Don't do anything! If we want to
 
 ## Problem 2: Exponent
 
-Write a recursive program that computes an exponent and outputs the result:
+Write a recursive program that computes an exponent:
 
 ```
 2^3 = 8
@@ -60,7 +60,7 @@ Think recursively! What's the recursive definition of an exponent? What's the ba
 
 ## Problem 3: Digital Sum
 
-Write a recursive function that computes the sum of digits of a number.
+Write a recursive function that computes the sum of digits of a number:
 
 ```
 digitalSum(2019) → 12
