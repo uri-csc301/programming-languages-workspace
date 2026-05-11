@@ -42,7 +42,7 @@ Then:
 use "functional_factorial.sml";
 fact 5;
 ```
-To quit, type ```CTRL+Z``` (Windows) / ```CTRL+D``` (Unix) and press ```ENTER/RETURN``` key
+To quit, type ```CTRL+D``` and press ```ENTER/RETURN``` key.
 
 ### Prolog
 ```bash
@@ -52,7 +52,7 @@ Then:
 ```prolog
 fact(5, F).
 ```
-To quit, type ```CTRL+Z``` (Windows) / ```CTRL+D``` (Unix) and press ```ENTER/RETURN``` key
+To quit, type ```CTRL+Z``` and press ```ENTER/RETURN``` key.
 
 ### Java
 ```bash
