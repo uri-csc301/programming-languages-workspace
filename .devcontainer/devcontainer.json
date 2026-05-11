@@ -1,5 +1,5 @@
 {
-  "name": "CSC 301 Programming Languages",
+  "name": "CSC 301 Programming Languages Workspace",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
@@ -7,19 +7,14 @@
     },
     "ghcr.io/devcontainers/features/python:1": {
       "version": "3.12"
-    },
-    "ghcr.io/devcontainers/features/node:1": {
-      "version": "lts"
     }
   },
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y build-essential smlnj swi-prolog",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y gcc smlnj swi-prolog",
   "customizations": {
     "vscode": {
       "extensions": [
         "vscjava.vscode-java-pack",
         "ms-python.python",
-        "dbaeumer.vscode-eslint",
-        "ms-vscode.cpptools",
         "rebornix.prolog",
         "freebroccolo.sml"
       ]
