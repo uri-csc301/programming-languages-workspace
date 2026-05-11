@@ -25,7 +25,7 @@ Compare how different programming paradigms approach solving the same problem.
 - Go to your copy of the repository
 - Click <b>Code → Codespaces → Create Codespace</b>
 - Wait for setup (1–2 minutes first time)
-- Open terminal and navigate to this folder (e.g., cd lecture-examples/week-01-recursion)
+- Open terminal and navigate to this folder (e.g., ```cd lecture-examples/week-01-recursion```)
 
 ### C
 ```bash
@@ -42,7 +42,7 @@ Then:
 use "functional_factorial.sml";
 fact 5;
 ```
-To quit, type CTRL+Z (Windows) / CTRL+D (Unix) and press ENTER/RETURN key
+To quit, type ```CTRL+Z``` (Windows) / ```CTRL+D``` (Unix) and press ```ENTER/RETURN``` key
 
 ### Prolog
 ```bash
@@ -52,6 +52,7 @@ Then:
 ```prolog
 fact(5, F).
 ```
+To quit, type ```CTRL+Z``` (Windows) / ```CTRL+D``` (Unix) and press ```ENTER/RETURN``` key
 
 ### Java
 ```bash
