@@ -20,14 +20,14 @@ This folder contains example implementations of the factorial function across di
 
 Compare how different programming paradigms approach solving the same problem.
 
-## How to Run the Examples
+## How To Run Examples
 
 Open the terminal in Codespaces and navigate to this folder.
 
-### Java
+### C
 ```bash
-javac oop_factorial.java
-java Main
+gcc imperative_factorial.c -o fact
+./fact
 ```
 
 ### SML
@@ -49,10 +49,10 @@ Then:
 ?- fact(5, F).
 ```
 
-### (Optional) C
+### Java
 ```bash
-gcc imperative_factorial.c -o fact
-./fact
+javac oop_factorial.java
+java Main
 ```
 
 Run each program and answer:
