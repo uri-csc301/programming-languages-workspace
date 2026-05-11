@@ -9,7 +9,7 @@ This repository serves as your **primary workspace for the course**. Throughout 
 
 ---
 
-## 📘 About the Course
+## About the Course
 
 In this course, we explore the **fundamental concepts of programming languages**, including:
 - Programming paradigms (functional, object-oriented, logic)
@@ -24,7 +24,7 @@ By the end of the course, you should be able to:
 
 ---
 
-## 🧰 Languages & Tools
+## Languages & Tools
 
 In this course, you will work with:
 - **Standard ML (SML)**
@@ -73,7 +73,7 @@ assignments/          → Graded work to be submitted
 
 ---
 
-## 💻 How to Work in This Repository
+## How to Work in This Repository
 
 Throughout the semester:
 - Work inside your own repository (NOT this template)
@@ -96,7 +96,7 @@ swipl program.pl
 
 ---
 
-## 💾 Saving Your Work (Commits)
+## Saving Your Work (Commits)
 
 You are expected to **commit your work regularly**.
 
@@ -112,7 +112,7 @@ git push
 
 ---
 
-## 📤 Submitting Assignments
+## Submitting Assignments
 
 Unless otherwise specified:
 
@@ -146,7 +146,7 @@ Violations will result in:
 
 ---
 
-## 💡 Final Notes
+## Final Notes
 
 - Start assignments early  
 - Commit your work frequently  
