@@ -21,7 +21,7 @@ class FactInt {
     }
 }
 
-public class Main {
+public class OOPFactorial {
     public static void main(String[] args) {
         FactInt f = new FactInt(5);
         System.out.println("Factorial: " + f.getVal());
