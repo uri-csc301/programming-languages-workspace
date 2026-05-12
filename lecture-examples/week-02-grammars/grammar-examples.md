@@ -41,7 +41,7 @@ Determine whether each string belongs to the language defined by this grammar (L
 2. `the dog chases the cat`
 3. `a dog loves the cat`
 
-👉 Ask yourself:
+Ask yourself:
 - Can you derive the string using the grammar rules?
 - If yes → it belongs to L(G)
 - If not → it does NOT belong to L(G)
