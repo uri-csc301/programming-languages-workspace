@@ -26,13 +26,16 @@ These problems are designed to help you practice **recursion**.
 
 ---
 
-## How To Work
+## How To Start
 
-1. Create your own files in this folder (e.g., `countdown.py`, `exponent.cpp`)
-2. Open the terminal in Codespaces
-3. Navigate to this folder (e.g., `cd self-assess-problems/week-01-recursion`)
-4. Run your program using the appropriate command (see below)
-5. Test your program with different inputs
+1. Go to **your repository** (not the template repo)
+2. Click <b>Code → Codespaces → Create Codespace</b>
+3. Wait for setup (1–2 minutes first time)
+4. Open the terminal (e.g., ```bash```)
+5. Navigate to this folder (e.g., `cd self-assess-problems/week-01-recursion`)
+6. Create your own files in this folder (e.g., `countdown.py`, `exponent.cpp`)
+7. Run your program using the appropriate command (see below)
+8. Test your program with different inputs
 
 ---
 
