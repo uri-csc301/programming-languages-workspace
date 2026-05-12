@@ -58,7 +58,7 @@ You must add teaching staff as collaborators so we can access your work.
 
 1. In your repository, go to **Settings → Collaborators**
 2. Click **Add people**
-3.Add the instructor and TA information provided in the **Setting Up Your Workspace** page in our Brightspace course (**Content → Week 1**).
+3. Add the instructor and TA information provided in the **Setting Up Your Workspace** page in our Brightspace course (**Content → Week 1**).
 
 This ensures we can view your work while keeping it private from other students.
 
