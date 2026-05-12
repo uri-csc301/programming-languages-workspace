@@ -18,8 +18,7 @@ The following languages are also available but not required:
 - **SML**
 - **Prolog**
 
-⚠️ **All problems must be solved using recursion.**  
-Do not use `for` or `while` loops unless explicitly stated.
+⚠️ **All problems must be solved using recursion.** Do not use `for` or `while` loops unless explicitly stated.
 
 ---
 
@@ -135,8 +134,7 @@ Then recursively traverse the list and print each value:
 0 1 2 3 4 5 6 7 8 9
 ```
 
-⚠️ Do not use loops.  
-You do **not** need to create the list recursively.
+⚠️ Do not use loops. You do **not** need to create the list recursively.
 
 ---
 
