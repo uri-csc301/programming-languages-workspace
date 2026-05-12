@@ -22,7 +22,7 @@ Compare how different programming paradigms approach solving the same problem.
 
 ## How To Run Examples
 
-- Go to your copy of the repository
+- Go to **your repository** (not the template repo)
 - Click <b>Code → Codespaces → Create Codespace</b>
 - Wait for setup (1–2 minutes first time)
 - Open the terminal (e.g., ```bash```)
