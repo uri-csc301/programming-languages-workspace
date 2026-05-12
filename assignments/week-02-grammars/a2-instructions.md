@@ -16,7 +16,8 @@ In this assignment, you will:
    ```
    assignments/week-02-grammars/
    ```
-3. Open this file and **edit it directly in GitHub** (click the ✏️ **Edit** button)
+3. Open this file and **edit it directly in GitHub** (click the <img width="25" height="30" alt="image" src="https://github.com/user-attachments/assets/1b84a2eb-d88c-43d3-995c-89b89e9f1428" />
+ button in the top right corner)
 5. Add your answers in the designated sections below
 6. Click **Commit changes** when finished
 
