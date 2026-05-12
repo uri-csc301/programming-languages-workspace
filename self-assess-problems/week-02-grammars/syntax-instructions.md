@@ -6,7 +6,7 @@ The following are practice problems to reinforce your understanding of **grammar
 
 For each problem, write a grammar that defines the given language.
 
-### 💡 Example
+### Example
 
 For:
 
@@ -26,7 +26,7 @@ There are often **multiple correct answers**, so focus on writing a grammar that
 
 ---
 
-## 🧠 Guidelines
+## Guidelines
 
 - Use proper BNF notation:
   - Non-terminals: `<S>`, `<A>`, etc.
@@ -36,7 +36,7 @@ There are often **multiple correct answers**, so focus on writing a grammar that
 
 ---
 
-## 🔢 Problem 1
+## Problem 1
 
 Write a grammar for:
 
@@ -44,7 +44,7 @@ Write a grammar for:
 
 ---
 
-## 🔢 Problem 2
+## Problem 2
 
 Write a grammar for:
 
@@ -59,7 +59,7 @@ a;a;a;
 
 ---
 
-## 🔢 Problem 3
+## Problem 3
 
 Write a grammar for:
 
@@ -75,7 +75,7 @@ a,a,a
 
 ---
 
-## 🔢 Problem 4
+## Problem 4
 
 Write a grammar for:
 
@@ -95,7 +95,7 @@ A1B2C3
 
 ---
 
-## 🔢 Problem 5
+## Problem 5
 
 Write a grammar for:
 
@@ -113,7 +113,7 @@ Example strings:
 
 ---
 
-## 🎯 Goal
+## Goal
 
 These problems will help you:
 - Understand how grammars define structure
