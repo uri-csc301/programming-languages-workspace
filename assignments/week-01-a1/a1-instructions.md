@@ -38,10 +38,9 @@ The following languages are also available but not required:
 9. Run and test your program using the appropriate command (see below)
 10. Verify your solution works for **all required test cases**
 
+<br>
 
-⚠️ Your program must **run without errors** and produce the **correct output** using **recursion (not iteration)**.
-
-If your program:
+⚠️ Your program must **run without errors** and produce the **correct output** using **recursion (not iteration)**. If your program:
 - does not run  
 - runs but crashes  
 - runs but produces incorrect output  
