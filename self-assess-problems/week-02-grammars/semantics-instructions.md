@@ -63,8 +63,6 @@ Consider the grammar:
 <reptile> ::= turtle | snake | <empty>
 ```
 
-### Task
-
 Show that this grammar is **ambiguous**.
 
 ### Hint
@@ -79,12 +77,11 @@ Show that this grammar is **ambiguous**.
 
 Using the grammar from Problem 2:
 
-- Rewrite it so that it defines the **same language**
-- But is **no longer ambiguous**
+- Rewrite it so that it defines the **same language** but is **no longer ambiguous**
 
 ---
 
-## 🎯Goal
+## Goal
 
 These problems will help you:
 
