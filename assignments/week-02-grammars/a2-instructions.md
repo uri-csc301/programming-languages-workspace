@@ -16,9 +16,9 @@ In this assignment, you will:
    ```
    assignments/week-02-grammars/
    ```
-3. Open this file and **edit it directly in GitHub**
-4. Add your answers in the designated sections below
-5. Click **Commit changes** when finished
+3. Open this file and **edit it directly in GitHub** (click the ✏️ **Edit** button)
+5. Add your answers in the designated sections below
+6. Click **Commit changes** when finished
 
 ---
 
