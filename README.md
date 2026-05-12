@@ -153,7 +153,7 @@ git push
 
 ### Option 2: Using the Source Control Panel
 
-1. Click the **Source Control** icon (<img width="56" height="76" alt="image" src="https://github.com/user-attachments/assets/176ba15f-b5dd-4405-8765-029b4ec04d1e" />
+1. Click the **Source Control** icon (<img width="25" height="30" alt="image" src="https://github.com/user-attachments/assets/176ba15f-b5dd-4405-8765-029b4ec04d1e" />
 )
 2. Enter a message describing your changes
 3. Click **Commit**
