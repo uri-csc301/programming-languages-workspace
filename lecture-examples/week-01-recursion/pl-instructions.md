@@ -28,12 +28,15 @@ Compare how different programming paradigms approach solving the same problem.
 - Open the terminal (e.g., ```bash```)
 - Navigate to this folder (e.g., ```cd lecture-examples/week-01-recursion```)
 
+---
+
 ### C
 ```bash
 gcc imperative_factorial.c -o fact
 ./fact
 ```
 
+---
 
 ### SML
 ```bash
@@ -46,6 +49,7 @@ fact 5;
 ```
 To quit, type ```CTRL+D``` and press ```ENTER/RETURN``` key.
 
+---
 
 ### Prolog
 ```bash
@@ -57,6 +61,7 @@ fact(5, F).
 ```
 To quit, type ```CTRL+Z``` and press ```ENTER/RETURN``` key.
 
+---
 
 ### Java
 ```bash
