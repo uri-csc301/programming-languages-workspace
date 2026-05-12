@@ -22,7 +22,7 @@ The following languages are also available but not required:
 
 ---
 
-## How To Work
+## How To Start
 
 1. Go to **your repository** (not the template repo)
 2. Click <b>Code → Codespaces → Create Codespace</b>
