@@ -254,7 +254,6 @@ YOUR ANSWER HERE
 After completing the assignment:
 
 1. Scroll to the top of the file
-2. Click the ✏️ **Edit** button (if not already editing)
 3. Click **Commit changes**
 4. Add a message (e.g., "Completed Assignment 2")
 5. Click **Commit changes**
