@@ -286,22 +286,22 @@ then it will receive **no credit**.
 Write the following functions:
 
 1. `string -> string`  
-   Returns: `"Hello, Name!"`
+   Returns `"Hello, Name!"` where `Name` is the given input
 
 2. `second : 'a list -> 'a`  
-   Returns the second element
+   Returns the second element (doesn't need to behave well on lists with less than 2 elements)
 
 3. `max3 : int * int * int -> int`  
    Returns the largest value
 
 4. `permute : 'a list -> 'a list`  
-   Swaps first two elements
+   Swaps first two elements of the list (`[1,2,3,4] → [2,1,3,4]`, `[“a”,”b”,”c”] → [“b”,”a”,”c”]`)
 
 5. `sqsum : int -> int`  
-   Sum of squares from `0` to `n`
+   Sum of squares from `0` to `n` (doesn't need to be defined for integer values less than 0)
 
 6. `pow : real * int -> real`  
-   Raises a real to an integer power
+   Raises a real to an integer power (doesn't need to be defined for integer values less than 0)
 
 ---
 
