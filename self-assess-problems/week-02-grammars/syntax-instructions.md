@@ -42,6 +42,10 @@ Write a grammar for:
 
 > The set of all strings consisting of **one or more `a`s**
 
+```text
+YOUR ANSWER HERE
+```
+
 ---
 
 ## Problem 2
@@ -55,6 +59,10 @@ Example strings:
 a;
 a;a;
 a;a;a;
+```
+
+```text
+YOUR ANSWER HERE
 ```
 
 ---
@@ -71,6 +79,10 @@ Example strings:
 a
 a,a
 a,a,a
+```
+
+```text
+YOUR ANSWER HERE
 ```
 
 ---
@@ -93,6 +105,10 @@ B123
 A1B2C3
 ```
 
+```text
+YOUR ANSWER HERE
+```
+
 ---
 
 ## Problem 5
@@ -109,6 +125,10 @@ Example strings:
 [1]
 [1,2]
 [3,4,5]
+```
+
+```text
+YOUR ANSWER HERE
 ```
 
 ---
