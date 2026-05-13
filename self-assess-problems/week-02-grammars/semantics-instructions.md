@@ -39,6 +39,10 @@ Modify this grammar step-by-step:
 
 1. Add **subtraction (`-`)** and **division (`/`)** operators  
    - Follow standard precedence and associativity rules
+  
+```text
+YOUR ANSWER HERE
+```
 
 2. Add a **left-associative operator `%`**  
    - Its precedence should be:
@@ -48,8 +52,16 @@ Modify this grammar step-by-step:
      *, /   (highest)
      ```
 
+```text
+YOUR ANSWER HERE
+```
+
 3. Add a **right-associative operator `=`**  
    - It should have **lower precedence than all other operators**
+  
+```text
+YOUR ANSWER HERE
+```
 
 ---
 
@@ -65,6 +77,10 @@ Consider the grammar:
 
 Show that this grammar is **ambiguous**.
 
+```text
+YOUR ANSWER HERE
+```
+
 ### Hint
 
 - Try finding a string that can be derived in **more than one way**
@@ -78,6 +94,10 @@ Show that this grammar is **ambiguous**.
 Using the grammar from Problem 2:
 
 - Rewrite it so that it defines the **same language** but is **no longer ambiguous**
+
+```text
+YOUR ANSWER HERE
+```
 
 ---
 
