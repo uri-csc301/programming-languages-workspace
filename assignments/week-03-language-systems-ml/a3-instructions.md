@@ -239,7 +239,7 @@ cd assignments/week-03-language-systems-ml
 a3.sml
 ```
 
-5. At the top of each file, include:
+5. At the top of the file, include:
     - Your full name
   
 6. Include comments in your code that:
