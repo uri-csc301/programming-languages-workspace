@@ -1,6 +1,6 @@
 # Week 3: Programming Language Implementation & SML
 
-## Assignment 3: Language Systems & ML
+## Assignment 3: Language Systems & SML
 
 In this assignment, you will:
 - Translate high-level expressions into **assembly language**
