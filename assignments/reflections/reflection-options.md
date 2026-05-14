@@ -17,8 +17,8 @@ Include:
 
 ---
 
-### Journal Entry / Letter
-Write a reflective journal entry or letter explaining the concepts.
+### Journal Entry or Letter
+Write a reflective journal entry or letter explaining the concepts. 
 
 ---
 
@@ -47,10 +47,21 @@ Write a script that demonstrates concepts through characters or dialogue.
 ### Lesson Plan
 Design a lesson or assignment that teaches the concepts.
 
+Include:
+- A short statement explaining what concepts are being covered
+- How the assignment would help students gain a deeper understanding of the material
+
 ---
 
 ### Interview
 Interview someone about the concepts and reflect on it.
+
+Include:
+- Interview setup (who you picked and why, where it took place, etc.) 
+- The questions you asked
+- Your favorite quotes from the interview and why
+-  A short reflection analyzing what you learned from the experience, anything that shocked or surprised you, and anything you will (or won’t) change in your practices and/or beliefs
+
 
 ---
 
