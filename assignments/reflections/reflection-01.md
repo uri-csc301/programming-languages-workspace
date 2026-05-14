@@ -113,7 +113,7 @@ If you choose a non-written format (e.g., video or podcast):
 
 ## Submission
 
-- Commit your work to this folder (e.g., `reflection-01`)
+- Commit your work to this folder (clearly label it `reflection-01`)
 - Submit a link to your private repository on Brightspace
 - Ensure teaching staff have access to your repository
 
