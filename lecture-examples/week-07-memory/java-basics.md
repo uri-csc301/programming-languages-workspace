@@ -9,7 +9,7 @@ This file will help you get started with **Java programming** in your Codespace.
 1. Go to **your repository** (not the template repo)
 2. Click <b>Code → Codespaces → Create Codespace</b>
 3. Wait for setup 
-4.Open the terminal (e.g., ```bash```)
+4. Open the terminal (e.g., ```bash```)
 5. Navigate to this folder:
 
 ```bash
