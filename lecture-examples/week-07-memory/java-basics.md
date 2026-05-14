@@ -1,4 +1,4 @@
-# Week 8: Java Basics
+# Week 7: Memory & Java
 
 This file will help you get started with **Java programming** in your Codespace.
 
