@@ -1,4 +1,4 @@
-(* Week 5: Types in ML *)
+(* Types in ML *)
 
 (* Primitive types *)
 val x = 5;
