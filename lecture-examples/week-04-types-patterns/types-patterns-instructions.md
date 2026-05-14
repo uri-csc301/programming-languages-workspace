@@ -30,6 +30,7 @@ Load example files:
 ```sml
 use "ml-types.sml";
 use "ml-patterns.sml";
+use "ml-merge-sort.sml";
 ```
 
 ---
