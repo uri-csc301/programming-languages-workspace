@@ -157,7 +157,14 @@ Some languages allow you to **name a namespace**.
 Example (Java idea):
 
 ```java
-MyInt.min
+// labeled namespace
+class MyInt {
+   public static int min = -32000;
+   public static int max = 32000;
+}
+
+// label = MyInt
+int i = MyInt.min;
 ```
 
 Access definitions using a label (namespace name) 
