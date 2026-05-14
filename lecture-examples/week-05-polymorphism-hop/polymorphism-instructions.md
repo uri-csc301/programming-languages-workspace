@@ -1,4 +1,4 @@
-# Week 5: Polymorphism & SML
+# Week 5: Polymorphism & Higher-Order Programming
 
 This file will guide you through key concepts in:
 - Polymorphism
@@ -17,7 +17,7 @@ This file will guide you through key concepts in:
 - Navigate to this folder:
 
 ```bash
-cd lecture-examples/week-05-polymorphism
+cd lecture-examples/week-05-polymorphism-hop
 ```
 
 ---
