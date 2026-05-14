@@ -4,7 +4,7 @@
 
 These practice problems are designed to reinforce your understanding of **types**.
 
-You may find it helpful to complete the **<a href="https://www3.cs.stonybrook.edu/~cram/sml.html">“Types”</a>** and **<a href="https://www3.cs.stonybrook.edu/~cram/sml.html">Tutorial Two</a>** readings before attempting these problems. You only need to complete Tutorial Two up to the **Type inference** section.
+You may find it helpful to complete the **<a href="https://www3.cs.stonybrook.edu/~cram/sml.html">Types</a>** and **<a href="https://www3.cs.stonybrook.edu/~cram/sml.html">Tutorial Two</a>** readings before attempting these problems. You only need to complete Tutorial Two up to the **Type inference** section.
 
 ⚠️ Self assessments are **not graded** and will not be submitted. They are strongly recommended for practice.
 
