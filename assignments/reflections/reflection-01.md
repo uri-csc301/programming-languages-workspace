@@ -2,28 +2,22 @@
 
 ## Purpose
 
-This reflection is an opportunity to demonstrate your understanding of the key concepts covered so far in the course.
+This reflection is an opportunity to demonstrate your understanding of the concepts covered so far in the course.
 
-Unlike assignments, this is not about writing code. Instead, you will explain concepts in your own words and reflect on your understanding.
-
----
-
-## Instructions
-
-Answer the questions below directly in this file.
-
-Your responses should:
-- Be **clear and thoughtful**
-- Demonstrate **understanding (not just definitions)**
-- Use examples where helpful
-- Be written in your **own words**
+Unlike assignments, this is not about writing code. Instead, this is your chance to:
+- explain ideas in your own words
+- make connections across topics
+- reflect on your learning
 
 ---
 
-## Part 1: Programming Paradigms
+## What to Include
+
+Your reflection should demonstrate your understanding of the following concepts:
+
+### Programming Paradigms
 
 Explain the following paradigms:
-
 - Imperative
 - Functional
 - Logic
@@ -32,111 +26,111 @@ Explain the following paradigms:
 For each:
 - What is the main idea?
 - How does it differ from the others?
-- Which paradigm do you feel most comfortable with and why?
 
-```text
-YOUR ANSWER HERE
-```
+Include which paradigm you feel most comfortable with and why.
 
 ---
 
-## Part 2: Syntax
+### Syntax
 
-1. What is the role of a grammar in a programming language?
+Explain the role of grammar in a programming language.
 
-2. Explain what it means for a string to “belong to a language.”
-
-3. Describe how a parse tree relates to a grammar.
-
-4. Give an example (in your own words) of how you would determine whether a string belongs to a grammar.
-
-```text
-YOUR ANSWER HERE
-```
+Include:
+- What it means for a string to “belong to a language”
+- An example or explanation that shows how you would determine this
 
 ---
 
-## Part 3: Semantics
+### Semantics
 
-1. What is ambiguity in a grammar?
-
-2. Why is ambiguity a problem?
-
-3. Explain:
-   - precedence
-   - associativity
-
-4. How do precedence and associativity help resolve ambiguity?
-
-```text
-YOUR ANSWER HERE
-```
+Explain:
+- What ambiguity in a grammar means
+- Why ambiguity is a problem
+- The role of precedence and associativity in resolving ambiguity
 
 ---
 
-## Part 4: Language Systems
+### Language Systems
 
-1. Describe the **classical sequence** of program execution.
+Explain the classical sequence of program execution and the role of each component.
 
-2. What is the role of each of the following?
-   - compiler
-   - assembler
-   - linker
-   - loader
-
-3. Compare:
-   - compiled languages
-   - interpreted languages
-
-4. Where do virtual machines (e.g., Java) fit in?
-
-```text
-YOUR ANSWER HERE
-```
+Compare:
+- compiled languages
+- interpreted languages
 
 ---
 
-## Part 5: Reflection
+### Reflection
 
-Answer the following:
-
-1. Which concept from this unit was the most difficult to understand?
-2. Which concept “clicked” the most for you?
-3. How has your understanding of programming languages changed so far?
-4. What questions do you still have?
-
-```text
-YOUR ANSWER HERE
-```
+Discuss:
+- Which concept from this unit was most difficult for you to understand
+- Which concept “clicked” the most for you
+- How your understanding of programming languages has changed so far
 
 ---
 
-## Optional: Reflection Format
+## Your Task
 
-You may present your reflection in an alternative format if you prefer (see Brightspace for ideas), such as:
+Create a reflection that meaningfully explores the topics above.
 
-- Video (vlog or mini-lecture)
-- Podcast
-- Written journal entry
-- Visual/diagram-based explanation
+You should:
+- Explain concepts in your own words
+- Use examples where helpful
+- Make connections between topics
+- Reflect on your understanding (what makes sense, what doesn’t, what surprised you)
 
-⚠️ If you choose an alternative format, include a short written summary in this file.
+⚠️ This is **not** a summary. Focus on explanation and insight.
+
+---
+
+## Format Options
+
+You may choose **any format** to present your reflection.
+
+See:
+```
+reflection-options.md
+```
+
+for ideas and examples.
+
+---
+
+## Requirements
+
+Regardless of format, your reflection must be:
+
+- **Accurate** (concepts are correct)
+- **Clear** (easy to follow)
+- **Thoughtful** (shows real understanding)
+- **Complete** (addresses the required topics)
+
+If you choose a non-written format (e.g., video or podcast):
+- Include a short written summary in this file
+- Provide a link to your work
 
 ---
 
 ## Submission
 
-- Commit your completed `reflection-01.md` file
-- Submit your repository link on Brightspace
-- Ensure teaching staff have access
+- Commit your work to this folder (e.g., `reflection-01`)
+- Submit a link to your private repository on Brightspace
+- Ensure teaching staff have access to your repository
 
 ---
 
 ## ⚠️ Academic Integrity
 
-All work must be your own.
+All work in this course must be **your own**.
 
 You may NOT:
-- Copy from other students
-- Use AI tools unless explicitly allowed
-- Use external sources without citation
+- Copy from other students  
+- Use solutions from the Internet  
+- Use AI tools unless explicitly allowed  
+
+If your work is flagged, you may be asked to:
+- Explain your answers  
+- Show your work and reasoning 
+- Provide supporting materials (drafts, notes, etc.)
+
+Refer to the **Academic Honesty page** in Brightspace (**Content → Getting Started**) for full details.
