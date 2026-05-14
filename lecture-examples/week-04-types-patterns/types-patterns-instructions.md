@@ -28,9 +28,9 @@ sml
 Load example files:
 
 ```sml
-use "ml-types.sml";
-use "ml-patterns.sml";
-use "ml-merge-sort.sml";
+use "type-examples.sml";
+use "pattern-examples.sml";
+use "merge-sort.sml";
 ```
 
 ---
