@@ -52,6 +52,9 @@ int fact(int n) {
 }
 ```
 
+<img width="1693" height="784" alt="image" src="https://github.com/user-attachments/assets/bc7a44e6-baff-453c-81bd-db8148d31f34" />
+
+
 When calling `fact(3)`:
 - Each call creates a new activation record
 - Values are stored separately for each call
