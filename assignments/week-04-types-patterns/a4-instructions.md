@@ -1,4 +1,4 @@
-# Week 4: Types & SML
+# Week 4: Types & Patterns
 
 ## Assignment 4: Types & Pattern Matching
 
