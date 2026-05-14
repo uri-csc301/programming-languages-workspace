@@ -52,13 +52,13 @@ int fact(int n) {
 }
 ```
 
-![App Demo](./java-activation-records.gif)
-
 When calling `fact(3)`:
 - Each call creates a new activation record
 - Values are stored separately for each call
 
 This is why recursion works correctly
+
+![App Demo](./java-activation-records.gif)
 
 ---
 
