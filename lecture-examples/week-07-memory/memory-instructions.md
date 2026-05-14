@@ -97,6 +97,62 @@ Common issues in C:
 
 ---
 
+### Example: Memory Leak (C)
+
+```c
+struct Object * o;
+
+void f()
+{
+  o = malloc(sizeof(struct Object));
+  struct Object * p = o;
+  o = NULL;
+}
+```
+
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/5b25082c-5635-475d-98f3-ce91930578b8" />
+
+
+The heap manager has not way of knowing that this memory is no longer used ⇒ **memory leak**
+
+---
+
+### Example: Dangling Pointer (C)
+
+```c
+void f()
+{
+  struct Object * o = malloc(sizeof(struct Object));
+  free(o);
+  struct Foo * p = malloc(sizeof(struct Foo));
+  o->ObjectAttribute = value;
+  p->Print();
+  free(p);
+}
+```
+
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/0135bf39-597b-4eba-9f19-dbc6178709aa" />
+
+---
+
+### Example: Garbage Collection (Java)
+
+```c
+void f()
+{
+  Object o = new Object();
+  Object p = o;
+  p = null;
+}
+```
+
+<img width="300" height="450" alt="image" src="https://github.com/user-attachments/assets/e6a96eff-9a86-456f-8390-5762ee241d4d" />
+
+
+Java uses a garbage collection technique called **reference counting**
+
+---
+
 ## Key Takeaways
 
 - Variables map to memory locations
