@@ -30,6 +30,14 @@ Start the ML interpreter:
 sml
 ```
 
+Load example files:
+
+```sml
+use "polymorphism-examples.sml";
+use "higher-order.sml";
+use "map-fold-examples.sml";
+```
+
 ---
 
 # Part 1: Polymorphism
