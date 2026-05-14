@@ -1,4 +1,4 @@
-# Week 4: Types & Pattern Matching in SML
+# Week 4: Types & Patterns
 
 This file will guide you through running and experimenting with **types** and **pattern matching** in Standard ML (SML).
 
