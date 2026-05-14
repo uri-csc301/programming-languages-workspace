@@ -1,4 +1,4 @@
-# Week 4: Types & SML
+# Week 4: Types & Patterns
 
 ## Self Assessment – Types
 
