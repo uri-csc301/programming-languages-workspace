@@ -64,7 +64,7 @@ Create a tutorial teaching the concepts.
 
 ---
 
-## 🎯 Important Notes
+## Important Notes
 
 - You may choose **any format**
 - You may combine formats if you'd like
