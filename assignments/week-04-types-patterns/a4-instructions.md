@@ -202,13 +202,7 @@ CTRL + D
 
 ---
 
-## Problems
-
-Write the following functions:
-
----
-
-### Problem 1: `more`
+## Problem 1: `more`
 
 Write a function:
 
@@ -228,7 +222,7 @@ You must use **pattern matching**.
 
 ---
 
-### Problem 2: `quicksort`
+## Problem 2: `quicksort`
 
 Write a function:
 
@@ -250,7 +244,7 @@ You must use **pattern matching**.
 
 ---
 
-### Problem 3: `repeats`
+## Problem 3: `repeats`
 
 Write a function:
 
