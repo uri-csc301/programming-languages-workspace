@@ -89,6 +89,16 @@ YOUR ANSWER HERE
 
 ---
 
+### (e) What is the final value returned by g 5?
+
+Explain your reasoning.
+
+```text
+YOUR ANSWER HERE
+```
+
+---
+
 ## Important Concept
 
 In ML, scope is **static (lexical)**:
