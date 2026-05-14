@@ -129,7 +129,7 @@ dupList [];
 ### ⚠️ Important
 
 - Do **NOT** use explicit recursion  
-- You **MUST** use one of the `fold` functions (`foldr` or `foldl`)  
+- You **MUST** use one of the `fold` functions
 - Do **NOT** define additional helper functions  
 
 ---
