@@ -16,7 +16,7 @@ In this assignment, you will:
    assignments/week-03-language-systems-ml/
    ```
 3. Complete:
-   - **Part 1: (Language Systems)** in this file (`a4-instructions.md`)
+   - **Part 1: (Language Systems)** in this file (`a3-instructions.md`)
    - **Part 2 (SML)** in `a3.sml`
   
 4. Commit your work when finished
