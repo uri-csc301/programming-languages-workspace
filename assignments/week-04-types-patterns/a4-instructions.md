@@ -264,8 +264,6 @@ You must use **pattern matching**.
 
 ---
 
----
-
 ## Saving & Submitting Your Work
 
 You are expected to **commit your work regularly**.
