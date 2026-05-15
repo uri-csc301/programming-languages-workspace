@@ -46,9 +46,9 @@ The most common namespace is a **block**.
 
 ---
 
-# Blocks
+## Blocks
 
-## Definition
+### Definition
 
 A **block** is a language construct that:
 
@@ -57,7 +57,7 @@ A **block** is a language construct that:
 
 ---
 
-## Example (ML)
+### Example (SML)
 
 ```sml
 let
@@ -71,13 +71,13 @@ end;
 
 ---
 
-# Nested Blocks
+## Nested Blocks
 
 Blocks can be **nested inside each other**.
 
 ---
 
-## Example (ML)
+### Example (SML)
 
 ```sml
 let
@@ -93,7 +93,7 @@ end;
 
 ---
 
-## What is the result?
+### What is the result?
 
 The result is:
 
@@ -106,7 +106,7 @@ The result is:
 
 ---
 
-# Shadowing
+## Shadowing
 
 When a variable in an inner scope has the same name as one in an outer scope:
 
@@ -114,7 +114,7 @@ When a variable in an inner scope has the same name as one in an outer scope:
 
 ---
 
-## Try It Yourself
+### Try It Yourself
 
 Run this in SML:
 
@@ -132,7 +132,7 @@ end;
 
 ---
 
-# Implicit Blocks
+## Implicit Blocks
 
 Some constructs create blocks **implicitly** (without `let...in...end`).
 
@@ -146,11 +146,11 @@ The function definition itself creates a **scope/block**
 
 ---
 
-# Namespaces (Advanced)
+## Namespaces (Advanced)
 
 ---
 
-## Labeled Namespaces
+### Labeled Namespaces
 
 Some languages allow you to **name a namespace**.
 
@@ -171,7 +171,7 @@ Access definitions using a label (namespace name)
 
 ---
 
-## Primitive Namespaces
+### Primitive Namespaces
 
 Modern languages typically separate:
 
@@ -182,7 +182,7 @@ This avoids confusion.
 
 ---
 
-## Example (ML)
+### Example (SML)
 
 ```sml
 val int = 3;
@@ -196,7 +196,7 @@ ML can distinguish them because they are in **different namespaces** :contentRef
 
 ---
 
-# Try It Yourself
+## Try It Yourself
 
 Run:
 
@@ -210,7 +210,7 @@ f 3;
 
 ---
 
-## What happens?
+### What happens?
 
 - `int` (variable) is used as a parameter name  
 - `int` (type) is still recognized separately  
@@ -223,7 +223,7 @@ Result:
 
 ---
 
-# Key Takeaways
+## Takeaways
 
 - Scope controls **where variables are visible**
 - Blocks define **regions of scope**
