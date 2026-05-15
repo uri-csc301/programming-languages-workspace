@@ -22,7 +22,7 @@ cd lecture-examples/week-03-ls-sml
 
 ### Starting SML
 
-Start SML:
+Start the SML interpreter:
 
 ```bash
 sml
