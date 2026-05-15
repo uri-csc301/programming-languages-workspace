@@ -251,7 +251,7 @@ Compute the values of:
 
 ---
 
-## Demonstration
+## Testing
 
 Show that your interpreter works by running queries such as:
 
@@ -260,10 +260,6 @@ Show that your interpreter works by running queries such as:
 ?- val1(minus(times(const(3),const(2)), const(3)), X).
 ?- val1(times(const(3), minus(const(2),const(3))), X).
 ```
-
-Include:
-- the query
-- Prolog’s output
 
 ---
 
