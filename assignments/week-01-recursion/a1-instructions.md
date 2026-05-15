@@ -22,13 +22,20 @@ The following languages are also available but not required:
 
 ---
 
-## How To Start
+## Getting Started
 
 1. Go to **your repository** (not the template repo)
 2. Click <b>Code → Codespaces → Create Codespace</b>
 3. Wait for setup (1–2 minutes first time)
-4. Open the terminal (e.g., ```bash```)
-5. Navigate to this folder (e.g., `cd assignments/week-01-recursion`)
+4. Open the terminal (`bash`)
+   - ⚠️ NOT GitHub Codespace Configuration (may appear temporarily but switch to `bash`)
+   
+5. Navigate to this folder:
+
+```bash
+cd assignments/week-01-recursion
+```
+
 6. Create your own files in this folder (e.g., `sum.py`, `reverse.cpp`)
 7. At the top of each file, include:
    - Your full name
