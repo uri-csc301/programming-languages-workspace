@@ -84,6 +84,7 @@ g++ filename.cpp -o program
 ### SML
 ```bash
 sml
+use "program.sml";
 ```
 
 ### Prolog
