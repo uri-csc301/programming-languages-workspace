@@ -4,11 +4,14 @@ This file will guide you through running and experimenting with **types** and **
 
 ---
 
-## How To Run Examples
+## How To Run Examples Using Codespaces
 
 - Go to **your repository** (not the template repo)
-- Click <b>Code → Codespaces → Create Codespace</b>
-- Open the terminal (e.g., ```bash```)
+- Click **Code → Codespaces → Create Codespace**
+- Wait for setup (1–2 minutes first time)
+- Open the terminal (`bash`)
+  - ⚠️ NOT GitHub Codespace Configuration (may appear temporarily but switch to `bash`)
+ 
 - Navigate to this folder:
 
 ```bash
@@ -17,9 +20,9 @@ cd lecture-examples/week-04-types-patterns
 
 ---
 
-## Getting Started
+## Starting SML
 
-Start the ML interpreter:
+Start the SML interpreter:
 
 ```bash
 sml
