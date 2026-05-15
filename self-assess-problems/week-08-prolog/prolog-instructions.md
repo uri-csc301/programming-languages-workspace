@@ -16,29 +16,29 @@ You may find it helpful to complete the first five topics of this [Prolog tutori
 
 ## Getting Started
 
-- Go to **your repository** (not the template repo)
-- Click **Code → Codespaces → Create Codespace**
-- Wait for setup
-- Open the terminal (`bash`)
-- Navigate to this folder:
+1. Go to **your repository** (not the template repo)
+2. Click **Code → Codespaces → Create Codespace**
+3. Wait for setup
+4. Open the terminal (`bash`)
+5. Navigate to this folder:
 
 ```bash
 cd self-assess-problems/week-08-prolog
 ```
 
-- Start Prolog:
+6. Start Prolog:
 
 ```bash
 swipl
 ```
 
-- Load a file:
+7. Load a file:
 
 ```prolog
 [family].
 ```
 
-- To quit:
+8. To quit:
 
 ```
 CTRL + Z
