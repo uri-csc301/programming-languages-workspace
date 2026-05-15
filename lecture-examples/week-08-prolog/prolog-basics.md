@@ -43,7 +43,7 @@ CTRL + Z
 ---
 
 
-## What is Prolog?
+## What Is Prolog?
 
 Prolog = **Programming in Logic**
 
@@ -52,10 +52,6 @@ Instead of writing instructions, you:
 - define **rules**
 - ask **queries**
 
----
-
-## Logic as a Programming Language
-
 Prolog is based on **first-order logic**, which extends propositional logic by allowing predicates and quantified variables.
 
 ---
@@ -63,8 +59,6 @@ Prolog is based on **first-order logic**, which extends propositional logic by a
 ## Facts
 
 Facts are statements that are always true.
-
-Example:
 
 ```prolog
 male(phil).
