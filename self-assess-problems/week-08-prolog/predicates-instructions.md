@@ -66,10 +66,6 @@ true.
 false.
 ```
 
-```prolog
-% YOUR ANSWER HERE
-```
-
 ---
 
 ## **Question 2: `del3/2`**
@@ -89,10 +85,6 @@ so that:
 ```prolog
 ?- del3([a,b,c,d], X).
 X = [a,b,d].
-```
-
-```prolog
-% YOUR ANSWER HERE
 ```
 
 ---
@@ -122,10 +114,6 @@ X = [a,b],
 Y = [c,d].
 ```
 
-```prolog
-% YOUR ANSWER HERE
-```
-
 ---
 
 ## **Question 4: `myflip/2`**
@@ -149,10 +137,6 @@ X = [c,b,a].
 #### ⚠️ Restrictions:
 - You may NOT use built-in predicates like `reverse/2`
 - You must use **recursion and pattern matching**
-
-```prolog
-% YOUR ANSWER HERE
-```
 
 ---
 
