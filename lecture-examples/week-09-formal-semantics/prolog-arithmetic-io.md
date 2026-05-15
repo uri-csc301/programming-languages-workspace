@@ -19,9 +19,7 @@ X = 15
 
 Operator precedence is respected.
 
----
-
-## ⚠️ Important
+**⚠️ Important**
 
 - `=` → unification  
 - `is` → evaluation  
