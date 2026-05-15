@@ -85,7 +85,7 @@ CTRL + D
 Start Prolog:
 
 ```bash
-swipl logic_factorial.pl
+swipl
 ```
 
 Load a file:
