@@ -13,7 +13,7 @@ In this assignment, you will:
 1. Go to **your repository** (not the template repo)
 2. Navigate to:
    ```
-   assignments/week-03-language-systems-ml/
+   assignments/week-03-ls-sml/
    ```
 3. Complete:
    - **Part 1: (Language Systems)** in this file (`a3-instructions.md`)
@@ -28,7 +28,7 @@ In this assignment, you will:
 1. Go to **your repository** (not the template repo)
 2. Navigate to:
    ```
-   assignments/week-03-language-systems-ml/
+   assignments/week-03-ls-sml/
    ```
 3. Open ```a3-instructions.md``` and **edit it directly in GitHub** (click the <img width="25" height="30" alt="image" src="https://github.com/user-attachments/assets/1b84a2eb-d88c-43d3-995c-89b89e9f1428" />
  button in the top right corner)
@@ -224,48 +224,47 @@ YOUR ANSWER HERE
 
 # Part 2: Standard ML (SML)
 
-Complete these problems in:
-
 1. Go to **your repository** (not the template repo)
+
 2. Click **Code → Codespaces → Create Codespace**
-3. Navigate to this folder:
+3. Wait for setup
+4. Open the terminal (`bash`)
+5. Navigate to this folder:
 
 ```bash
-cd assignments/week-03-language-systems-ml
+cd assignments/week-03-ls-sml
 ```
 
-4. Open the file:
+6. Open the file:
 
 ```text
 a3.sml
 ```
 
-5. At the top of the file, include:
+7. At the top of the file, include:
     - Your full name
   
-6. Include comments in your code that:
+8. Include comments in your code that:
     - Explain what your program does
     - Explain how your solution works
   
-7. Write your function definitions in `a3.sml`
+9. Write your function definitions in `a3.sml`
 
-8. Open the terminal and start SML:
+10. Start the SML interpreter:
 
 ```bash
 sml
 ```
 
-9. Load your file:
+11. Load this file:
 
 ```sml
 use "a3.sml";
 ```
 
-10. Test your functions at the SML prompt
+12. Test your functions and make sure your solution works for **all required test cases**
 
-11. Verify your solution works for **all required test cases**
-
-12. To quit SML, press:
+13. To quit SML, press:
 
 ```text
 CTRL + D
