@@ -2,6 +2,8 @@
 
 This folder contains example implementations of the factorial function across different programming paradigms.
 
+---
+
 ## Examples Included
 
 - **Imperative (C)**  
@@ -20,54 +22,109 @@ This folder contains example implementations of the factorial function across di
 
 Compare how different programming paradigms approach solving the same problem.
 
-## How To Run Examples
+---
+
+## How To Run Examples Using Codespaces
 
 - Go to **your repository** (not the template repo)
-- Click <b>Code → Codespaces → Create Codespace</b>
+- Click **Code → Codespaces → Create Codespace**
 - Wait for setup (1–2 minutes first time)
 - Open the terminal (e.g., ```bash```)
-- Navigate to this folder (e.g., ```cd lecture-examples/week-01-recursion```)
+- Navigate to this folder:
+
+```bash
+cd lecture-examples/week-01-recursion
+```
 
 ---
 
 ### C
+
+Compile a C file:
+
 ```bash
 gcc imperative_factorial.c -o fact
+```
+
+Run the program:
+
+```bash
 ./fact
 ```
 
 ---
 
-### SML
+### Standard ML (SML)
+
+Start SML:
+
 ```bash
 sml
 ```
-Then:
+
+Load a file:
+
 ```sml
 use "functional_factorial.sml";
+```
+
+Call a function:
+
+```sml
 fact 5;
 ```
-To quit, type ```CTRL+D``` and press ```ENTER/RETURN``` key.
+
+To quit: 
+
+```
+CTRL + D
+```
 
 ---
 
 ### Prolog
+
+Start Prolog:
+
 ```bash
 swipl logic_factorial.pl
 ```
-Then:
+
+Load a file:
+
+```bash
+[logic_factorial].
+```
+
+Call a function:
+
 ```prolog
 fact(5, F).
 ```
-To quit, type ```CTRL+Z``` and press ```ENTER/RETURN``` key.
+
+To quit: 
+
+```
+CTRL + Z
+```
 
 ---
 
 ### Java
+
+Compile a Java file:
+
 ```bash
 javac oop_factorial.java
+```
+
+Run the program:
+
+```bash
 java Main
 ```
+
+---
 
 Run each program and answer:
 
