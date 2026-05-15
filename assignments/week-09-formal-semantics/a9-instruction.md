@@ -191,26 +191,6 @@ CTRL + Z
 
 ---
 
-## Requirements
-
-At the top of your file, include:
-- Your full name
-
-In your code, include comments that:
-- Explain what each predicate does
-- Explain how your solution works
-
-<br>
-
-⚠️ Your program must **run without errors** and produce the **correct output** using **recursion (not iteration)**. If your program:
-- does not run  
-- runs but crashes  
-- runs but produces incorrect output  
-
-then it will receive **no credit**.
-
----
-
 ## Your Task
 
 This part extends a programming language using Prolog.
