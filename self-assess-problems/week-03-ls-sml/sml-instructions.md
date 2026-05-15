@@ -28,7 +28,8 @@ cd self-assess-problems/week-03-ls-sml
 intro.sml
 ```
 
-7. Save your changes.
+7. Save your changes
+
 8. Start the SML interpreter:
 
 ```bash
