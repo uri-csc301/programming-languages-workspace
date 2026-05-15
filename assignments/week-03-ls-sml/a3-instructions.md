@@ -252,7 +252,7 @@ sml
 9. Load this file:
 
 ```sml
-use "aa3.sml";
+use "a3.sml";
 ```
 
 10. Test your functions and make sure your solution works for **all required test cases**
