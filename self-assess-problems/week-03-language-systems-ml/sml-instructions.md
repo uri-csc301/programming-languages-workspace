@@ -14,32 +14,34 @@ You may find it helpful to complete the **<a href="https://www3.cs.stonybrook.ed
 
 1. Go to **your repository** (not the template repo)
 2. Click **Code → Codespaces → Create Codespace**
-3. Navigate to this folder:
+3. Wait for setup
+4. Open the terminal (`bash`)
+5. Navigate to this folder:
 
 ```bash
-cd self-assess-problems/week-03-language-systems-ml
+cd self-assess-problems/week-03-ls-sml
 ```
 
-4. Open the file:
+6. Open and complete the problems in this file:
 
 ```text
 intro.sml
 ```
 
-5. Write your function definitions in `intro.sml`
-6. Open the terminal and start SML:
+7. Save your changes.
+8. Start the SML interpreter:
 
 ```bash
 sml
 ```
 
-7. Load your file:
+9. Load this file:
 
 ```sml
 use "intro.sml";
 ```
 
-8. Test your functions at the SML prompt:
+8. Test your functions and make sure your solution works for **all required test cases**
 
 ```sml
 cube 3;
