@@ -5,7 +5,7 @@ This folder contains example implementations of the factorial function across di
 - **Imperative (C)**  
   Uses assignment and iteration
 
-- **Functional (SML)**  
+- **Functional (Standard ML)**  
   Uses recursion and single valued variables
 
 - **Logic (Prolog)**  
