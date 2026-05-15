@@ -203,7 +203,7 @@ You will extend Language ONE to support **subtraction**.
 
 ---
 
-## Step 1: Extend the Grammar
+## Step 1: Extend Grammar
 
 Add subtraction to the BNF grammar:
 
@@ -215,7 +215,7 @@ Include your updated grammar in your file.
 
 ---
 
-## Step 2: Extend the Abstract Syntax
+## Step 2: Extend Abstract Syntax
 
 Represent subtraction as:
 
@@ -225,7 +225,7 @@ minus(X,Y)
 
 ---
 
-## Step 3: Extend the Operational Semantics
+## Step 3: Extend Operational Semantics
 
 Modify the interpreter by adding:
 
