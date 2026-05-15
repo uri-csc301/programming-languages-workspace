@@ -27,7 +27,9 @@ Compare how different programming paradigms approach solving the same problem.
 - Go to **your repository** (not the template repo)
 - Click **Code → Codespaces → Create Codespace**
 - Wait for setup (1–2 minutes first time)
-- Open the terminal (e.g., ```bash```)
+- Open the terminal (`bash`)
+  - ⚠️ NOT GitHub Codespace Configuration (may appear temporarily but switch to `bash`)
+ 
 - Navigate to this folder:
 
 ```bash
