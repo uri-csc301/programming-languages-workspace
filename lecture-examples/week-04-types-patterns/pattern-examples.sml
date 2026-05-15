@@ -1,4 +1,4 @@
-(* Pattern Matching in ML *)
+(* Pattern Matching in SML *)
 
 (* Factorial without pattern matching *)
 fun fact_if x =
