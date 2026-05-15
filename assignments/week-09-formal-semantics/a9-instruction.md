@@ -19,7 +19,7 @@ This assignment gives you practice with:
    ```
 3. Complete:
    - **Part 1 (Prolog Predicates)** in `a9.pl`
-   - - **Part 2 (Language ONE)** in `language-one.pl`
+   - **Part 2 (Language ONE)** in `language-one.pl`
   
 4. Commit your work when finished
 
