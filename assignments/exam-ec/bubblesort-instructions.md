@@ -39,7 +39,7 @@ sml
 use "bubblesort.sml";
 ```
 
-10. Test your functions and make sure your solution works for all test cases.
+10. Test your functions and make sure your solution works for **all required test cases**
 
 11. Commit your work when finished
 
