@@ -2,9 +2,7 @@
 
 This folder contains example implementations of the factorial function across different programming paradigms.
 
----
-
-## Examples Included
+### Examples Included
 
 - **Imperative (C)**  
   Uses assignment and iteration
@@ -18,7 +16,7 @@ This folder contains example implementations of the factorial function across di
 - **Object-Oriented (Java)**  
   Bundles data with the allowed operations 
 
-## Learning Goal
+### Learning Goal
 
 Compare how different programming paradigms approach solving the same problem.
 
@@ -92,7 +90,7 @@ swipl logic_factorial.pl
 
 Load a file:
 
-```bash
+```prolog
 [logic_factorial].
 ```
 
