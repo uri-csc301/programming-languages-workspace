@@ -33,8 +33,8 @@ In this assignment, you will apply your understanding of:
    ```
 3. Open ```a4-instructions.md``` and **edit it directly in GitHub** (click the <img width="25" height="30" alt="image" src="https://github.com/user-attachments/assets/1b84a2eb-d88c-43d3-995c-89b89e9f1428" />
  button in the top right corner)
-5. Add your answers in the designated sections below
-6. Click **Commit changes** when finished
+4. Add your answers in the designated sections below
+5. Click **Commit changes** when finished
 
 ---
 
