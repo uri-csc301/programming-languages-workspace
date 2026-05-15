@@ -1,28 +1,34 @@
 # Week 7: Memory & Java
 
-This file will help you get started with **Java programming** in your Codespace.
+This file will help you get started with **Java programming**.
 
 ---
 
-## How To Run Java Code
+## How To Run Examples Using Codespaces
 
-1. Go to **your repository** (not the template repo)
-2. Click <b>Code → Codespaces → Create Codespace</b>
-3. Wait for setup 
-4. Open the terminal (e.g., ```bash```)
-5. Navigate to this folder:
+- Go to **your repository** (not the template repo)
+- Click **Code → Codespaces → Create Codespace**
+- Wait for setup (1–2 minutes first time)
+- Open the terminal (`bash`)
+  - ⚠️ NOT GitHub Codespace Configuration (may appear temporarily but switch to `bash`)
+ 
+- Navigate to this folder:
 
 ```bash
 cd lecture-examples/week-07-memory
 ```
 
-6. Compile a Java file:
+---
+
+### Java
+
+Compile a Java file:
 
 ```bash
 javac Main.java
 ```
 
-7. Run the program:
+Run the program:
 
 ```bash
 java Main
@@ -107,7 +113,7 @@ int result = add(2, 3);
 
 ---
 
-## Key Takeaways
+## Takeaways
 
 - Java is **imperative and object-oriented**
 - Variables store values in **memory**
