@@ -9,7 +9,6 @@ This is an optional extra credit assignment. You may earn **up to 10 additional 
 ## Getting Started
 
 1. Go to **your repository** (not the template repo)
-
 2. Click **Code → Codespaces → Create Codespace**
 3. Wait for setup
 4. Open the terminal (`bash`)
@@ -25,7 +24,7 @@ cd assignments/exam-ec
 bubblesort.sml
 ```
 
-7. Save your changes.
+7. Save your changes
    
 8. Start the SML interpreter:
 
