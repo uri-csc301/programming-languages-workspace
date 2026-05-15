@@ -36,17 +36,17 @@ Parameter passing determines:
 
 ---
 
-# Parameter Passing Methods
+## Parameter Passing Methods
 
 ---
 
-## 1. Pass-by-Value
+### 1. Pass-by-Value
 
 A **copy of the value** is passed to the function.
 
 - Changes inside the function do NOT affect the original variable
 
-### Example (Java)
+#### Example (Java)
 
 ```java
 public static void change(int x) {
@@ -69,13 +69,13 @@ Output:
 
 ---
 
-## 2. Pass-by-Reference
+### 2. Pass-by-Reference
 
 The **actual variable (memory location)** is passed.
 
 - Changes inside the function DO affect the original variable
 
-### Example (Conceptual)
+#### Example (Conceptual)
 
 ```text
 change(x):
@@ -95,17 +95,17 @@ Output:
 
 ---
 
-## 3. Pass-by-Value-Result (Copy-In / Copy-Out)
+### 3. Pass-by-Value-Result (Copy-In / Copy-Out)
 
 Two steps:
 1. Copy value into the function (copy-in)
 2. Copy value back to the original variable (copy-out)
 
-### Behavior:
+#### Behavior:
 - Changes inside the function DO affect the original
 - But only after the function finishes
 
-### Conceptual Example:
+#### Conceptual Example:
 
 ```text
 a = 10
@@ -128,13 +128,13 @@ Difference from pass-by-reference:
 
 ---
 
-## 4. Pass-by-Name (Advanced)
+### 4. Pass-by-Name (Advanced)
 
 The parameter behaves like a **textual substitution** of the argument.
 
 - Expression is re-evaluated each time it is used
 
-### Conceptual Example:
+#### Conceptual Example:
 
 ```text
 function f(x):
@@ -151,15 +151,15 @@ f(a + 1)
 
 ---
 
-# How Java Fits In
+## How Java Fits In
 
-## Key Rule
+### Key Rule
 
 **Java is always pass-by-value**
 
 ---
 
-## Primitive Types
+### Primitive Types
 
 ```java
 int x = 10;
@@ -171,7 +171,7 @@ change(x);
 
 ---
 
-## Objects
+### Objects
 
 ```java
 Box b = new Box();
@@ -181,7 +181,7 @@ change(b);
 - The **reference is copied**
 - Both variables refer to the same object
 
-### Important Distinction:
+#### Important Distinction:
 
 | Operation | Effect |
 |----------|--------|
@@ -190,7 +190,7 @@ change(b);
 
 ---
 
-## Example
+### Example
 
 ```java
 public static void change(Box b) {
@@ -213,7 +213,7 @@ public static void change(Box b) {
 
 ---
 
-# Summary Table
+## Summary Table
 
 | Method | What is Passed | Can Modify Original? |
 |-------|----------------|----------------------|
@@ -225,7 +225,7 @@ public static void change(Box b) {
 
 ---
 
-# Key Takeaways
+## Takeaways
 
 - Parameter passing is a **language design decision**
 - Different languages behave differently
