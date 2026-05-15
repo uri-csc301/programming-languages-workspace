@@ -1,12 +1,12 @@
 # Week 7: Memory & Java
 
-This file will help you understand how **parameters are passed to methods in Java**.
+This file introduces different **parameter passing mechanisms** used in programming languages and explains how **Java fits into this model**.
 
 ---
 
 ## What Are Parameters?
 
-Parameters are variables that receive values when a method is called.
+Parameters are variables that receive values when a method or function is called.
 
 Example:
 
@@ -27,94 +27,180 @@ add(2, 3);
 
 ---
 
-## Key Idea
+## Why Parameter Passing Matters
 
-**Java is always pass-by-value**
-
-This means:
-- A **copy of the value** is passed into the method
-- Changes inside the method do **not affect the original variable**
+Parameter passing determines:
+- what gets passed into a function
+- whether changes affect the original variables
+- how memory is used during execution
 
 ---
 
-# Example 1: Primitive Types
+# Parameter Passing Methods
+
+---
+
+## 1. Pass-by-Value
+
+A **copy of the value** is passed to the function.
+
+- Changes inside the function do NOT affect the original variable
+
+### Example (Java)
 
 ```java
-public class Main {
-    public static void change(int x) {
-        x = 100;
-    }
-
-    public static void main(String[] args) {
-        int a = 10;
-        change(a);
-        System.out.println(a);
-    }
+public static void change(int x) {
+    x = 100;
 }
 ```
 
-## What is printed?
+```java
+int a = 10;
+change(a);
+System.out.println(a);
+```
 
 Output:
-
 ```
 10
 ```
 
-### Why?
-
-- `a` is **copied** into `x`
-- Changing `x` does NOT change `a`
+✔ Java uses pass-by-value
 
 ---
 
-# Example 2: Objects
+## 2. Pass-by-Reference
 
-```java
-class Box {
-    int value;
-}
+The **actual variable (memory location)** is passed.
 
-public class Main {
-    public static void change(Box b) {
-        b.value = 100;
-    }
+- Changes inside the function DO affect the original variable
 
-    public static void main(String[] args) {
-        Box box = new Box();
-        box.value = 10;
+### Example (Conceptual)
 
-        change(box);
+```text
+change(x):
+    x = 100
 
-        System.out.println(box.value);
-    }
-}
+a = 10
+change(a)
+print(a)
 ```
 
-## What is printed?
-
 Output:
-
 ```
 100
 ```
 
----
-
-## Why is this different?
-
-Even though Java is **pass-by-value**:
-
-- The value being copied is a **reference to the object**
-- Both `box` and `b` refer to the **same object in memory**
-
-So:
-- Changing the object → visible outside the method ✔  
-- Reassigning the reference → NOT visible ❌  
+✔ Used in languages like C++ (with references)
 
 ---
 
-# 🔁 Example 3: Reassigning an Object
+## 3. Pass-by-Value-Result (Copy-In / Copy-Out)
+
+Two steps:
+1. Copy value into the function (copy-in)
+2. Copy value back to the original variable (copy-out)
+
+### Behavior:
+- Changes inside the function DO affect the original
+- But only after the function finishes
+
+### Conceptual Example:
+
+```text
+a = 10
+
+function change(x):
+    x = 100
+
+change(a)
+
+print(a)
+```
+
+Output:
+```
+100
+```
+
+Difference from pass-by-reference:
+- Happens **after execution**, not during
+
+---
+
+## 4. Pass-by-Name (Advanced)
+
+The parameter behaves like a **textual substitution** of the argument.
+
+- Expression is re-evaluated each time it is used
+
+### Conceptual Example:
+
+```text
+function f(x):
+    print(x)
+    print(x)
+
+f(a + 1)
+```
+
+`a + 1` is evaluated each time
+
+✔ Rare in modern languages  
+✔ Historically used in Algol
+
+---
+
+# How Java Fits In
+
+## Key Rule
+
+**Java is always pass-by-value**
+
+---
+
+## Primitive Types
+
+```java
+int x = 10;
+change(x);
+```
+
+- Value is copied
+- Original variable is unchanged
+
+---
+
+## Objects
+
+```java
+Box b = new Box();
+change(b);
+```
+
+- The **reference is copied**
+- Both variables refer to the same object
+
+### Important Distinction:
+
+| Operation | Effect |
+|----------|--------|
+| Modify object | ✔ Visible outside |
+| Reassign reference | ❌ Not visible |
+
+---
+
+## Example
+
+```java
+public static void change(Box b) {
+    b.value = 100;
+}
+```
+
+✔ Modifies original object
+
+---
 
 ```java
 public static void change(Box b) {
@@ -123,63 +209,29 @@ public static void change(Box b) {
 }
 ```
 
-## What happens now?
-
-Output:
-
-```
-10
-```
-
-### Why?
-
-- The reference is copied
-- Reassigning `b` does NOT change the original `box`
+❌ Does NOT affect original object
 
 ---
 
-# Summary
+# Summary Table
 
-| Case | What is Passed | Can It Change Outside? |
-|------|---------------|------------------------|
-| Primitive (int, double) | Value | ❌ No |
-| Object | Reference (copied) | ✔ Yes (object contents only) |
-| Object reassignment | New reference | ❌ No |
-
----
-
-# Try It Yourself
-
-```java
-public static void test(int x) {
-    x = x + 5;
-}
-
-public static void main(String[] args) {
-    int a = 20;
-    test(a);
-    System.out.println(a);
-}
-```
-
----
-
-## What is the output?
-
-Think about:
-- What gets copied?
-- What gets modified?
+| Method | What is Passed | Can Modify Original? |
+|-------|----------------|----------------------|
+| Pass-by-Value | Copy of value | ❌ No |
+| Pass-by-Reference | Memory location | ✔ Yes |
+| Pass-by-Value-Result | Copy in/out | ✔ Yes (after call) |
+| Pass-by-Name | Expression | Depends |
+| Java (Actual) | Copy of value (reference for objects) | ✔ Only object contents |
 
 ---
 
 # Key Takeaways
 
-- Java is **always pass-by-value**
-- Primitives → values are copied
-- Objects → references are copied
-- You can modify an object, but not the original reference
-
-This concept is critical for understanding:
-- method calls
-- memory (stack vs heap)
-- object behavior
+- Parameter passing is a **language design decision**
+- Different languages behave differently
+- Java uses **pass-by-value only**
+- Objects can still appear to behave like pass-by-reference
+- Understanding this is critical for:
+  - debugging
+  - memory reasoning
+  - predicting program behavior
