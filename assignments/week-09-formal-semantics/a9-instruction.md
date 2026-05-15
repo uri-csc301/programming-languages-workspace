@@ -149,15 +149,6 @@ Hint:
 
 ---
 
-## Demonstration
-
-For each predicate:
-- run the required test cases
-- verify correctness
-- include queries in your submission
-
----
-
 # Part 2: Language ONE (Formal Semantics)
 
 1. Go to **your repository** (not the template repo)
