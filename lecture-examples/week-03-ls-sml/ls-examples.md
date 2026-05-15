@@ -2,15 +2,11 @@
 
 This file contains examples and explanations to help you understand how programming languages are executed behind the scenes.
 
----
-
-## Key Idea
-
 When you write code in an IDE, a sequence of steps transforms your program into something the computer can execute.
 
 ---
 
-## Classical Compilation Process (C, C++, Fortran)
+## Classical Sequence (C, C++, Fortran)
 
 ```
                                                                                                Library Code
@@ -20,8 +16,6 @@ When you write code in an IDE, a sequence of steps transforms your program into 
 ----------                  ----------                               ----------                  ----------                ----------
 ```
 
-### Components
-
 - **Editor** → where you write code  
 - **Compiler** → translates high-level code to low-level code  
 - **Assembler** → converts assembly to machine code  
@@ -30,7 +24,7 @@ When you write code in an IDE, a sequence of steps transforms your program into 
 
 ---
 
-## Alternative: Java / C#
+## Alternative (Java, C#)
 
 ```
                                                                                                         Library Code
@@ -46,7 +40,7 @@ Key difference:
 
 ---
 
-## Alternative: Interpreted Languages (e.g., Lisp)
+## Alternative (Lisp)
 
 ```
 ----------                    ---------- 
@@ -61,12 +55,12 @@ Key difference:
 
 ## Compiler vs Interpreter
 
-### Compiler
+**Compiler**
 - Translates entire program before execution
 - Produces efficient code
 - Runs faster after compilation
 
-### Interpreter
+**Interpreter**
 - Executes code line-by-line
 - Easier to test and debug
 - Slower execution
@@ -83,39 +77,72 @@ Key difference:
     ----------              ----------           ----------          ----------  
 ```
 
-### Syntax Analysis
+**Syntax Analysis**
 - Checks structure (grammar)
 - Builds parse trees
 
-### Semantic Analysis
+**Semantic Analysis**
 - Checks meaning (types, variables, etc.)
 
-### Optimization
+**Optimization**
 - Improves performance
 
-### Code Generation
+**Code Generation**
 - Produces machine-level code
 
 ---
 
-## Example: High-Level to Assembly
+## Compilation Example
 
-High-level:
+Consider the following assembly language:
+
 ```
-net := gross - costs
+load address,reg
+add reg,reg,reg
+sub reg,reg,reg
+mul reg,reg,reg
+store reg,address
 ```
 
-Assembly:
+- `address` is name of a static variable (whose actual address filled in by loader)
+- A `reg` is name of an integer register (special extra-fast memory location inside processor)
+- `r1`, `r2`, `r3` are three integer registers
+- `load` loads integer from the given memory address into given register
+- `add` adds second register to first register and places result in third register
+- `sub` subtracts second register from first register and places the result in third register
+- `mul` multiplies the register by second register and places result in third register
+- `store` stores integer from the given register at given memory address
+
+Translate `3*2+5`:
+
 ```
-load gross, r1
-load costs, r2
-sub r1, r2, r1
-store r1, net
+load 3,r1
+load 2,r2
+mul r1,r2,r1
+load 5,r2
+add r1,r2,r1
+```
+
+Translate `result := offset + (width * n)`:
+
+```
+load width,r1
+load n,r2
+mul r1,r2,r1
+load offset,r2
+add r2,r1,r1
+store r1,result
 ```
 
 ---
 
-## Try It Yourself
+### Try It Yourself
+
+Translate:
+
+```
+net := gross - costs
+```
 
 Translate:
 
@@ -123,7 +150,7 @@ Translate:
 volume := (length * width) * height
 ```
 
-Think:
+Ask Yourself:
 - What order should operations happen?
 - Which registers will you use?
 
