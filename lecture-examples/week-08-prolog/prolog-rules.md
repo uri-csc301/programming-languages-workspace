@@ -1,4 +1,4 @@
-# Week 8: A First Look at Prolog
+# Week 8: Prolog
 
 This file introduces the basics of **Prolog**, a logic programming language.
 
