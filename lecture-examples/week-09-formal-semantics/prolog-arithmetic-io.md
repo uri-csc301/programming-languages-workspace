@@ -1,4 +1,4 @@
-# Week 10: Formal Semantics
+# Prolog – Arithmetic & I/O
 
 ---
 
