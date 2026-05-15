@@ -15,7 +15,6 @@ You may find it helpful to review:
 ## Getting Started
 
 1. Go to **your repository** (not the template repo)
-
 2. Click **Code → Codespaces → Create Codespace**
 3. Wait for setup
 4. Open the terminal (`bash`)
@@ -34,6 +33,7 @@ quicksort.sml
 ```
 
 7. Save your changes
+   
 8. Start the SML interpreter:
 
 ```bash
