@@ -12,17 +12,20 @@ You may find it helpful to review:
 
 ---
 
-## How to Start
+## Getting Started
 
 1. Go to **your repository** (not the template repo)
+
 2. Click **Code → Codespaces → Create Codespace**
-3. Navigate to this folder:
+3. Wait for setup
+4. Open the terminal (`bash`)
+5. Navigate to this folder:
 
 ```bash
 cd self-assess-problems/week-04-types-patterns
 ```
 
-4. Open the files:
+6. Open and complete the problems in these file:
 
 ```text
 pattern-intro.sml
@@ -30,14 +33,14 @@ insertion-sort.sml
 quicksort.sml
 ```
 
-5. Write your solutions in these files
-6. Start SML:
+7. Save your changes
+8. Start the SML interpreter:
 
 ```bash
 sml
 ```
 
-7. Load your files:
+9. Load these files:
 
 ```sml
 use "pattern-intro.sml";
@@ -45,9 +48,9 @@ use "insertion-sort.sml";
 use "quicksort.sml";
 ```
 
-8. Test your functions at the SML prompt
+10. Test your functions and make sure your solution works for **all required test cases**
 
-9. To quit:
+11. To quit:
 
 ```
 CTRL + D
