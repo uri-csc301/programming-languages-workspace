@@ -115,10 +115,15 @@ CalcDemo.java
 
 ## Running Your Program
 
-In Codespaces:
+Compile:
 
 ```bash
 javac CalcDemo.java
+```
+
+Run:
+
+```bash
 java CalcDemo
 ```
 
