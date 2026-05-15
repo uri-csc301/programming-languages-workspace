@@ -9,11 +9,14 @@ This file will guide you through key concepts in:
 
 ---
 
-## How To Run Examples
+## How To Run Examples Using Codespaces
 
 - Go to **your repository** (not the template repo)
 - Click **Code → Codespaces → Create Codespace**
-- Open the terminal (e.g., `bash`)
+- Wait for setup
+- Open the terminal (`bash`)
+  - ⚠️ NOT GitHub Codespace Configuration (may appear temporarily but switch to `bash`)
+ 
 - Navigate to this folder:
 
 ```bash
@@ -22,9 +25,9 @@ cd lecture-examples/week-05-polymorphism-hop
 
 ---
 
-## Getting Started
+### Starting SML
 
-Start the ML interpreter:
+Start the SML interpreter:
 
 ```bash
 sml
@@ -39,8 +42,6 @@ use "map-fold-examples.sml";
 ```
 
 ---
-
-# Part 1: Polymorphism
 
 ## What is Polymorphism?
 
@@ -61,7 +62,7 @@ Example (Java):
 3 + 5           // int + int
 ```
 
-ML does **not support overloading**.
+SML does **not support overloading**.
 
 ---
 
@@ -76,7 +77,7 @@ double x;
 x = 2;   // int is coerced to double
 ```
 
-ML does **not perform type coercion**. 
+SML does **not perform type coercion**. 
 
 ---
 
@@ -109,8 +110,6 @@ Example (Java):
 ML does **not support subtyping**.
 
 ---
-
-# Part 2: Higher-Order Programming
 
 ## Functions as Values
 
@@ -145,7 +144,7 @@ genconv (3.2, ceil);
 
 ---
 
-# Anonymous Functions
+## Anonymous Functions
 
 Sometimes we create small functions on the fly.
 
@@ -163,7 +162,7 @@ Example:
 
 ---
 
-# Currying
+## Currying
 
 Functions can be written as a chain of single-argument functions.
 
@@ -181,7 +180,7 @@ csum 1 2;
 
 ---
 
-## Partial Evaluation
+### Partial Evaluation
 
 ```sml
 val addOne = csum 1;
@@ -190,11 +189,11 @@ addOne 5;
 
 ---
 
-# Built-in Functional Patterns
+## Built-in Functional Patterns
 
 ---
 
-## map
+### map
 
 Applies a function to each element in a list.
 
@@ -210,7 +209,7 @@ Output:
 
 ---
 
-## foldr
+### foldr
 
 Reduces a list to a single value (right to left).
 
@@ -220,7 +219,7 @@ foldr (fn (a,b) => a + b) 0 [1,2,3];
 
 ---
 
-## foldl
+### foldl
 
 Reduces a list (left to right).
 
@@ -230,13 +229,13 @@ foldl (fn (a,b) => a + b) 0 [1,2,3];
 
 ---
 
-## foldr vs foldl
+### foldr vs foldl
 
 They differ when operations are **not commutative**.
 
 ---
 
-# Partial Evaluation with map
+## Partial Evaluation with map
 
 ```sml
 val listinc = map (fn x => x + 1);
@@ -245,7 +244,7 @@ listinc [1,2,3];
 
 ---
 
-# Recursion with Curried Functions
+## Recursion with Curried Functions
 
 Example:
 
@@ -258,7 +257,7 @@ fun filterc [] e = []
 
 ---
 
-# Try It Yourself
+## Try It Yourself
 
 ```sml
 map (fn x => x * 2) [1,2,3];
@@ -271,7 +270,7 @@ addTwo 10;
 
 ---
 
-# Takeaways
+## Takeaways
 
 - Polymorphism = functions with multiple possible types
 - ML primarily uses **parametric polymorphism**
