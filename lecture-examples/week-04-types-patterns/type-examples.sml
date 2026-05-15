@@ -1,4 +1,4 @@
-(* Types in ML *)
+(* Types in SML *)
 
 (* Primitive types *)
 val x = 5;
