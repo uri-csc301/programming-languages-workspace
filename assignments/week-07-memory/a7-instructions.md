@@ -1,6 +1,6 @@
 # Week 7: Memory & Java
 
-## Assignment 7: Memory, Parameters & Translation
+## Assignment 7: Parameters & Translation
 
 In this assignment, you will:
 
