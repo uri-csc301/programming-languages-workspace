@@ -38,7 +38,7 @@ use "merge-sort.sml";
 
 ---
 
-# Types in Programming Languages
+# Types
 
 A **type** is a set of values.
 
