@@ -2,8 +2,6 @@
 
 This folder contains example implementations of the factorial function across different programming paradigms.
 
-### Examples Included
-
 - **Imperative (C)**  
   Uses assignment and iteration
 
@@ -15,8 +13,6 @@ This folder contains example implementations of the factorial function across di
 
 - **Object-Oriented (Java)**  
   Bundles data with the allowed operations 
-
-### Learning Goal
 
 Compare how different programming paradigms approach solving the same problem.
 
