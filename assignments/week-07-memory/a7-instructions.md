@@ -105,19 +105,13 @@ YOUR ANSWER HERE
 cd assignments/week-07-memory
 ```
 
-6. Open this file:
-
-```text
-CalcDemo.java
-```
-
-7. Compile this file:
+6. Compile this file:
 
 ```bash
 javac CalcDemo.java
 ```
 
-8. Run this file:
+7. Run this file:
 
 ```bash
 java CalcDemo
