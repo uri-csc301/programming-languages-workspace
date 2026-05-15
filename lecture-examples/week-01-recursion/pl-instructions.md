@@ -126,6 +126,8 @@ java Main
 
 ---
 
+## Reflect
+
 Run each program and answer:
 
 - What is similar across all implementations?
