@@ -52,7 +52,7 @@ Run the program:
 
 ### Standard ML (SML)
 
-Start SML:
+Start the SML interpreter:
 
 ```bash
 sml
