@@ -151,41 +151,48 @@ YOUR ANSWER HERE
 cd assignments/week-04-types-patterns
 ```
 
-6. Open the file:
+6. Open and complete the problems in this file:
 
 ```text
 a4.sml
 ```
 
-7. At the top of the file, include:
-    - Your full name
-  
-8. Include comments in your code that:
-    - Explain what each function does
-    - Explain how your solution works
-  
-9. Write your function definitions in `a4.sml`
-   - Your solutions must use **pattern matching** and **recursion (no loops)**
-
-10. Start the SML interpreter:
+7. Save your changes.
+   
+8. Start the SML interpreter:
 
 ```bash
 sml
 ```
 
-11. Load this file:
+9. Load this file:
 
 ```sml
 use "a4.sml";
 ```
 
-12. Test your functions and make sure your solution works for **all required test cases**
+10. Test your functions and make sure your solution works for **all required test cases**
 
-13. To quit SML, press:
+11. To quit SML, press:
 
 ```text
 CTRL + D
 ```
+
+---
+
+## Requirements
+
+At the top of your file, include:
+- Your full name
+
+In your code, include comments that:
+- Explain what each function does
+- Explain how your solution works
+
+Your solutions must:
+- Use **pattern matching**
+- Use **recursion (no loops)**
 
 <br>
 
