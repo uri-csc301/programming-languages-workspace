@@ -4,6 +4,45 @@ This file introduces the basics of **Prolog**, a logic programming language.
 
 ---
 
+## How To Run Examples Using Codespaces
+
+- Go to **your repository** (not the template repo)
+- Click **Code → Codespaces → Create Codespace**
+- Wait for setup
+- Open the terminal (`bash`)
+  - ⚠️ NOT GitHub Codespace Configuration (may appear temporarily but switch to `bash`)
+ 
+- Navigate to this folder:
+
+```bash
+cd lecture-examples/week-08-prolog
+```
+
+---
+
+### Prolog
+
+Start Prolog:
+
+```bash
+swipl
+```
+
+Load a file:
+
+```prolog
+[socrates].
+```
+
+To quit: 
+
+```
+CTRL + Z
+```
+
+---
+
+
 ## What is Prolog?
 
 Prolog = **Programming in Logic**
@@ -18,32 +57,6 @@ Instead of writing instructions, you:
 ## Logic as a Programming Language
 
 Prolog is based on **first-order logic**, which extends propositional logic by allowing predicates and quantified variables.
-
----
-
-## How To Run Prolog
-
-1. Go to **your repository** (not the template repo)
-2. Click <b>Code → Codespaces → Create Codespace</b>
-3. Wait for setup 
-4. Open the terminal (e.g., ```bash```)
-5. Navigate to this folder:
-
-```bash
-cd lecture-examples/week-08-prolog
-```
-
-Run Prolog:
-
-```bash
-swipl
-```
-
-Load a file:
-
-```prolog
-?- [socrates].
-```
 
 ---
 
@@ -96,7 +109,7 @@ Prolog returns all values that satisfy the query.
 
 ---
 
-## Key Takeaways
+## Takeaways
 
 - Prolog programs = facts + rules  
 - Execution = asking queries  
