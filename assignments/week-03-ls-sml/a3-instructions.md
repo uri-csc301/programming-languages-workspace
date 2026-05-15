@@ -225,7 +225,6 @@ YOUR ANSWER HERE
 # Part 2: Standard ML (SML)
 
 1. Go to **your repository** (not the template repo)
-
 2. Click **Code → Codespaces → Create Codespace**
 3. Wait for setup
 4. Open the terminal (`bash`)
@@ -241,7 +240,7 @@ cd assignments/week-03-ls-sml
 a3.sml
 ```
 
-7. Save your changes.
+7. Save your changes
    
 8. Start the SML interpreter:
 
