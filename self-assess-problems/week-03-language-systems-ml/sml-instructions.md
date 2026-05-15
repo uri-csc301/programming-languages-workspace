@@ -41,7 +41,7 @@ sml
 use "intro.sml";
 ```
 
-8. Test your functions and make sure your solution works for **all required test cases**
+10. Test your functions and make sure your solution works for **all required test cases**
 
 ```sml
 cube 3;
@@ -49,7 +49,7 @@ cuber 2.0;
 second [1,2,3];
 ```
 
-9. To quit SML, press:
+11. To quit SML, press:
 
 ```text
 CTRL + D
