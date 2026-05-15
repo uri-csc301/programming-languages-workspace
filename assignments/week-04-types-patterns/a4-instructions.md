@@ -140,34 +140,52 @@ YOUR ANSWER HERE
 
 # Part 2: Pattern Matching
 
-Complete these problems in:
-
 1. Go to **your repository** (not the template repo)
+
 2. Click **Code → Codespaces → Create Codespace**
-3. Navigate to this folder:
+3. Wait for setup
+4. Open the terminal (`bash`)
+5. Navigate to this folder:
 
 ```bash
 cd assignments/week-04-types-patterns
 ```
 
-4. Open the file:
+6. Open the file:
 
 ```text
 a4.sml
 ```
 
-## Requirements
+7. At the top of the file, include:
+    - Your full name
+  
+8. Include comments in your code that:
+    - Explain what each function does
+    - Explain how your solution works
+  
+9. Write your function definitions in `a4.sml`
+   - Your solutions must use **pattern matching** and **recursion (no loops)**
 
-At the top of your file, include:
-- Your full name
+10. Start the SML interpreter:
 
-In your code, include comments that:
-- Explain what each function does
-- Explain how your solution works
+```bash
+sml
+```
 
-Your solutions must:
-- Use **pattern matching**
-- Use **recursion (no loops)**
+11. Load this file:
+
+```sml
+use "a4.sml";
+```
+
+12. Test your functions and make sure your solution works for **all required test cases**
+
+13. To quit SML, press:
+
+```text
+CTRL + D
+```
 
 <br>
 
@@ -177,30 +195,6 @@ Your solutions must:
 - runs but produces incorrect output  
 
 then it will receive **no credit**.
-
----
-
-## Running Your Code
-
-Start SML:
-
-```bash
-sml
-```
-
-Load your file:
-
-```sml
-use "a4.sml";
-```
-
-Test your functions at the prompt.
-
-Exit with:
-
-```
-CTRL + D
-```
 
 ---
 
