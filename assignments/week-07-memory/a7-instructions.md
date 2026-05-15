@@ -95,8 +95,6 @@ YOUR ANSWER HERE
 
 # Part 2: Translator Program
 
-Complete these problems in:
-
 1. Go to **your repository** (not the template repo)
 2. Click **Code → Codespaces → Create Codespace**
 3. Wait for setup
