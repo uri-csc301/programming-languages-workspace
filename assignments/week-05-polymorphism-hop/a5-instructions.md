@@ -15,20 +15,41 @@ In this assignment, you will apply your understanding of:
 1. Go to **your repository** (not the template repo)
 
 2. Click **Code → Codespaces → Create Codespace**
-3. Navigate to this folder:
+3. Wait for setup
+4. Open the terminal (`bash`)
+5. Navigate to this folder:
 
 ```bash
 cd assignments/week-05-polymorphism-hop
 ```
 
-4. Open the file:
+6. Open and complete the problems in this file:
 
 ```text
 a5.sml
 ```
 
-5. Complete the problems in this file  
-6. Commit your work when finished
+7. Save your changes.
+   
+8. Start the SML interpreter:
+
+```bash
+sml
+```
+
+9. Load this file:
+
+```sml
+use "a5.sml";
+```
+
+10. Test your functions and make sure your solution works for **all required test cases**
+
+11. To quit SML, press:
+
+```text
+CTRL + D
+```
 
 ---
 
@@ -54,34 +75,6 @@ Your solutions must:
 - runs but produces incorrect output  
 
 then it will receive **no credit**.
-
----
-
-## Running Your Code
-
-Start SML:
-
-```bash
-sml
-```
-
-Load your file:
-
-```sml
-use "a5.sml";
-```
-
-Test your functions at the prompt.
-
-Exit with:
-
-```
-CTRL + D
-```
-
----
-
-# Problems
 
 ---
 
