@@ -1,21 +1,28 @@
 # Week 3: Programming Language Implementation & SML
 
-This file will guide you through running and experimenting with **Standard ML (SML)** in your Codespace.
+This file will guide you through running and experimenting with **Standard ML (SML)**.
 
 ---
 
-## How To Run Examples
+## How To Run Examples Using Codespaces
 
 - Go to **your repository** (not the template repo)
-- Click <b>Code → Codespaces → Create Codespace</b>
-- Open the terminal (e.g., ```bash```)
-- Navigate to this folder (e.g., ```cd lecture-examples/week-03-language-systems-ml```)
+- Click **Code → Codespaces → Create Codespace**
+- Wait for setup
+- Open the terminal (`bash`)
+  - ⚠️ NOT GitHub Codespace Configuration (may appear temporarily but switch to `bash`)
+ 
+- Navigate to this folder:
+
+```bash
+cd lecture-examples/week-03-ls-sml
+```
 
 ---
 
-## Getting Started
+### Starting SML
 
-Open a terminal in Codespaces and run:
+Start SML:
 
 ```bash
 sml
@@ -145,7 +152,7 @@ tl(nums);
 [1,2] @ [3,4];
 ```
 
-### Cons operator
+### Cons Operator
 
 ```sml
 1 :: [2,3];
@@ -191,7 +198,7 @@ fun listlength (L) =
 
 ---
 
-### Reverse a list
+### Reverse List
 
 ```sml
 fun reverse (L) =
