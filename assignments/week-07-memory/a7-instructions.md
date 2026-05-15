@@ -99,29 +99,27 @@ Complete these problems in:
 
 1. Go to **your repository** (not the template repo)
 2. Click **Code → Codespaces → Create Codespace**
-3. Navigate to this folder:
+3. Wait for setup
+4. Open the terminal (`bash`)
+5. Navigate to this folder:
 
 ```bash
 cd assignments/week-07-memory
 ```
 
-4. Open the file:
+6. Open this file:
 
 ```text
 CalcDemo.java
 ```
 
----
-
-## Running Your Program
-
-Compile:
+7. Compile this file:
 
 ```bash
 javac CalcDemo.java
 ```
 
-Run:
+8. Run this file:
 
 ```bash
 java CalcDemo
