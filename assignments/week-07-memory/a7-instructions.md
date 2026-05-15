@@ -111,10 +111,6 @@ cd assignments/week-07-memory
 CalcDemo.java
 ```
 
-## Goal
-
-Modify the parser so that it **generates instructions** instead of directly evaluating the expression.
-
 ---
 
 ## Running Your Program
@@ -156,6 +152,8 @@ CalcParser.java
 ---
 
 ## Your Task
+
+Modify the parser so that it **generates instructions** instead of directly evaluating the expression.
 
 Modify `CalcParser.java` so that:
 
