@@ -141,7 +141,6 @@ YOUR ANSWER HERE
 # Part 2: Pattern Matching
 
 1. Go to **your repository** (not the template repo)
-
 2. Click **Code → Codespaces → Create Codespace**
 3. Wait for setup
 4. Open the terminal (`bash`)
@@ -157,7 +156,7 @@ cd assignments/week-04-types-patterns
 a4.sml
 ```
 
-7. Save your changes.
+7. Save your changes
    
 8. Start the SML interpreter:
 
