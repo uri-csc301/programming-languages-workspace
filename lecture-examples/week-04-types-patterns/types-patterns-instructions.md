@@ -38,7 +38,7 @@ use "merge-sort.sml";
 
 ---
 
-# Types
+## Types
 
 A **type** is a set of values.
 
@@ -47,8 +47,6 @@ Example:
 - `real` → all floating-point numbers  
 
 ---
-
-## Primitive vs Constructed Types
 
 ### Primitive Types
 - Built into the language
@@ -73,7 +71,7 @@ val L = [1,2,3];           (* list *)
 
 ---
 
-## Type Examples
+### Try It Yourself
 
 Try these in SML:
 
@@ -93,7 +91,7 @@ This is why the following is invalid:
 
 ---
 
-# Function Types
+## Function Types
 
 Functions also have types.
 
@@ -106,7 +104,7 @@ This represents all functions that take a `real` and return an `int`.
 
 ---
 
-## Functions as Values
+### Functions As Values
 
 ```sml
 fun myfun (x:real):int = round(x);
@@ -117,7 +115,7 @@ foo(3.4);
 
 ---
 
-# Pattern Matching
+## Pattern Matching
 
 Pattern matching allows you to define functions based on the **structure of input values**.
 
@@ -138,7 +136,7 @@ This is cleaner and more expressive.
 
 ---
 
-## Valid Patterns
+### Valid Patterns
 
 Examples:
 ```sml
@@ -156,9 +154,9 @@ f(x)
 
 ---
 
-# Pattern Matching on Lists
+### Pattern Matching On Lists
 
-### Sum of a list
+**Sum of a list**
 
 ```sml
 fun sumlist [] = 0
@@ -167,7 +165,7 @@ fun sumlist [] = 0
 
 ---
 
-### Reverse a list
+**Reverse a list**
 
 ```sml
 fun reverse [] = []
@@ -176,7 +174,7 @@ fun reverse [] = []
 
 ---
 
-# Pattern Matching with Tuples
+### Pattern Matching With Tuples
 
 ```sml
 fun get1stAge ((age, weight, mstat, profession)::rest) = age;
@@ -186,7 +184,7 @@ This extracts values directly from structured data.
 
 ---
 
-# Anonymous Variables
+## Anonymous Variables
 
 If a value is not needed:
 
@@ -199,7 +197,7 @@ fun f 0 = "zero"
 
 ---
 
-# Pattern Matching with let
+## Pattern Matching With let
 
 ```sml
 fun halve [] = ([], [])
@@ -214,7 +212,7 @@ fun halve [] = ([], [])
 
 ---
 
-# Merge Example
+## Merge Example
 
 ```sml
 fun merge ([], ys) = ys
@@ -226,7 +224,7 @@ fun merge ([], ys) = ys
 
 ---
 
-# Merge Sort
+## Merge Sort
 
 ```sml
 fun mergeSort [] = []
@@ -239,9 +237,7 @@ fun mergeSort [] = []
       end;
 ```
 
----
-
-## Try It Yourself
+### Try It Yourself
 
 ```sml
 mergeSort [4,3,2,1];
@@ -250,7 +246,7 @@ mergeSort [4,2,3,1,5,3,6];
 
 ---
 
-# Takeaways
+## Takeaways
 
 - A **type** is a set of values
 - Types help detect errors early
