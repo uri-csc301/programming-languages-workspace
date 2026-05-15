@@ -41,7 +41,11 @@ use "bubblesort.sml";
 
 10. Test your functions and make sure your solution works for **all required test cases**
 
-11. Commit your work when finished
+11. To quit SML, press:
+
+```text
+CTRL + D
+```
 
 ---
 
