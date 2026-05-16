@@ -1,6 +1,6 @@
 # Reflection 4: Logic Programming & Formal Semantics
 
-## 🎯 Purpose
+## Purpose
 
 This reflection is an opportunity to demonstrate your understanding of logic programming and formal semantics.
 
