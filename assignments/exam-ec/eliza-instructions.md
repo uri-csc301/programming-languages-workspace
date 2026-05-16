@@ -62,7 +62,7 @@ In your code, include comments that:
 - Explain what each predicate does
 - Explain how your solution works
 
-Your program must:
+Your solution must:
 - use **recursion (no loops)**
 - use **pattern matching**
 - correctly implement all transformations
